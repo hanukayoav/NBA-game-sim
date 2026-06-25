@@ -10,7 +10,7 @@ class DraftEngine {
         // Simple draft order (reverse of ID for simplicity, in a real game would be lottery)
         this.draftOrder = [...this.data.getTeams()].reverse();
         // Pool is rookies
-        this.draftClass = this.data.getFreeAgents().filter(p => p.id > 100000).sort((a,b) => b.overall - a.overall);
+        this.draftClass = this.data.getFreeAgents().sort((a,b) => b.overall - a.overall).slice(0, 60); // Use top 60 remaining free agents for the draft
         this.currentPickIndex = 0;
         this.data.addNews("The NBA Draft has started!");
     }

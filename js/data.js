@@ -21,21 +21,7 @@ class DataModule {
             this.teams = data.teams;
 
             this.players = data.players.map(p => ({...p, team_id: null}));
-            // Ensure enough players for fantasy draft (30 teams * 12 = 360 minimum)
-            let extraNeeded = 400 - this.players.length;
-            for(let i=0; i<extraNeeded; i++) {
-                this.players.push({
-                    id: 200000 + i,
-                    name: 'Free Agent ' + (i+1),
-                    position: ['PG', 'SG', 'SF', 'PF', 'C'][Math.floor(Math.random() * 5)],
-                    team_id: null,
-                    overall: Math.floor(Math.random() * 20) + 60,
-                    stats: { offense: 70, defense: 70 },
-                    salary: 1000000,
-                    injury: null,
-                    morale: 100
-                });
-            }
+
 
             console.log("Data loaded from local fallback.");
             return true;
@@ -55,63 +41,59 @@ class DataModule {
             const teamsData = await teamsRes.json();
             this.teams = teamsData.data.filter(t => t.id <= 30);
 
-            // Fetch players
-            const playersRes = await fetch('https://api.balldontlie.io/v1/players?per_page=100', { headers });
-            const playersData = await playersRes.json();
+            // Fetch multiple pages of players for a full 400+ roster
+            this.players = [];
+            let cursor = 0;
+            for (let page = 1; page <= 5; page++) {
+                const playersRes = await fetch(`https://api.balldontlie.io/v1/players?per_page=100${cursor ? '&cursor='+cursor : ''}`, { headers });
+                if (!playersRes.ok) break;
 
-            // Process API players
-            this.players = playersData.data.map(p => {
-                const positions = ['PG', 'SG', 'SF', 'PF', 'C'];
-                let posObj = p.position || '';
-                // Handle cases like "G", "F", "F-C"
-                let position = 'PG';
-                if (posObj.includes('G')) position = Math.random() > 0.5 ? 'PG' : 'SG';
-                else if (posObj.includes('F')) position = Math.random() > 0.5 ? 'SF' : 'PF';
-                else if (posObj.includes('C')) position = 'C';
-                else position = positions[Math.floor(Math.random() * positions.length)];
+                const playersData = await playersRes.json();
+                if(!playersData.data || playersData.data.length === 0) break;
 
-                const offense = Math.floor(Math.random() * 30) + 60;
-                const defense = Math.floor(Math.random() * 30) + 60;
-                const overall = Math.floor((offense + defense) / 2);
+                const processed = playersData.data.map(p => {
+                    const positions = ['PG', 'SG', 'SF', 'PF', 'C'];
+                    let posObj = p.position || '';
+                    let position = 'PG';
+                    if (posObj.includes('G')) position = Math.random() > 0.5 ? 'PG' : 'SG';
+                    else if (posObj.includes('F')) position = Math.random() > 0.5 ? 'SF' : 'PF';
+                    else if (posObj.includes('C')) position = 'C';
+                    else position = positions[Math.floor(Math.random() * positions.length)];
 
-                let salary = 1000000;
-                if (overall >= 85) salary = 35000000;
-                else if (overall >= 80) salary = 25000000;
-                else if (overall >= 75) salary = 15000000;
-                else if (overall >= 70) salary = 8000000;
+                    const offense = Math.floor(Math.random() * 30) + 60;
+                    const defense = Math.floor(Math.random() * 30) + 60;
+                    const overall = Math.floor((offense + defense) / 2);
 
-                return {
-                    id: p.id,
-                    name: `${p.first_name} ${p.last_name}`.trim(),
-                    position: position,
-                    team_id: null, // Empty for Fantasy Draft
-                    overall: overall,
-                    stats: { offense, defense },
-                    salary: salary,
-                    injury: null,
-                    morale: 100
-                };
-            });
+                    let salary = 1000000;
+                    if (overall >= 85) salary = 35000000;
+                    else if (overall >= 80) salary = 25000000;
+                    else if (overall >= 75) salary = 15000000;
+                    else if (overall >= 70) salary = 8000000;
+
+                    return {
+                        id: p.id,
+                        name: `${p.first_name} ${p.last_name}`.trim(),
+                        position: position,
+                        team_id: null,
+                        overall: overall,
+                        stats: { offense, defense },
+                        salary: salary,
+                        injury: null,
+                        morale: 100
+                    };
+                });
+
+                this.players = this.players.concat(processed);
+                if (playersData.meta && playersData.meta.next_cursor) {
+                    cursor = playersData.meta.next_cursor;
+                } else {
+                    break;
+                }
+            }
 
             // Add rookies
 
-            let extraNeededAPI = 400 - this.players.length;
-            for (let i = 1; i <= extraNeededAPI; i++) {
 
-                const off = Math.floor(Math.random() * 20) + 60;
-                const def = Math.floor(Math.random() * 20) + 60;
-                this.players.push({
-                    id: 100000 + i,
-                    name: `Rookie Prospect ${i}`,
-                    position: ['PG', 'SG', 'SF', 'PF', 'C'][Math.floor(Math.random() * 5)],
-                    team_id: null, // Empty for Fantasy Draft
-                    overall: Math.floor((off + def) / 2),
-                    stats: { offense: off, defense: def },
-                    salary: 3000000,
-                    injury: null,
-                    morale: 100
-                });
-            }
 
             console.log("Data loaded from balldontlie API.");
             return true;

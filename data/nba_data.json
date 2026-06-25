@@ -2,241 +2,301 @@
   "teams": [
     {
       "id": 1,
+      "conference": "East",
+      "division": "Southeast",
       "city": "Atlanta",
       "name": "Hawks",
-      "abbreviation": "ATL",
-      "conference": "East"
+      "full_name": "Atlanta Hawks",
+      "abbreviation": "ATL"
     },
     {
       "id": 2,
+      "conference": "East",
+      "division": "Atlantic",
       "city": "Boston",
       "name": "Celtics",
-      "abbreviation": "BOS",
-      "conference": "East"
+      "full_name": "Boston Celtics",
+      "abbreviation": "BOS"
     },
     {
       "id": 3,
+      "conference": "East",
+      "division": "Atlantic",
       "city": "Brooklyn",
       "name": "Nets",
-      "abbreviation": "BKN",
-      "conference": "East"
+      "full_name": "Brooklyn Nets",
+      "abbreviation": "BKN"
     },
     {
       "id": 4,
+      "conference": "East",
+      "division": "Southeast",
       "city": "Charlotte",
       "name": "Hornets",
-      "abbreviation": "CHA",
-      "conference": "East"
+      "full_name": "Charlotte Hornets",
+      "abbreviation": "CHA"
     },
     {
       "id": 5,
+      "conference": "East",
+      "division": "Central",
       "city": "Chicago",
       "name": "Bulls",
-      "abbreviation": "CHI",
-      "conference": "East"
+      "full_name": "Chicago Bulls",
+      "abbreviation": "CHI"
     },
     {
       "id": 6,
+      "conference": "East",
+      "division": "Central",
       "city": "Cleveland",
       "name": "Cavaliers",
-      "abbreviation": "CLE",
-      "conference": "East"
+      "full_name": "Cleveland Cavaliers",
+      "abbreviation": "CLE"
     },
     {
       "id": 7,
+      "conference": "West",
+      "division": "Southwest",
       "city": "Dallas",
       "name": "Mavericks",
-      "abbreviation": "DAL",
-      "conference": "West"
+      "full_name": "Dallas Mavericks",
+      "abbreviation": "DAL"
     },
     {
       "id": 8,
+      "conference": "West",
+      "division": "Northwest",
       "city": "Denver",
       "name": "Nuggets",
-      "abbreviation": "DEN",
-      "conference": "West"
+      "full_name": "Denver Nuggets",
+      "abbreviation": "DEN"
     },
     {
       "id": 9,
+      "conference": "East",
+      "division": "Central",
       "city": "Detroit",
       "name": "Pistons",
-      "abbreviation": "DET",
-      "conference": "East"
+      "full_name": "Detroit Pistons",
+      "abbreviation": "DET"
     },
     {
       "id": 10,
+      "conference": "West",
+      "division": "Pacific",
       "city": "Golden State",
       "name": "Warriors",
-      "abbreviation": "GSW",
-      "conference": "West"
+      "full_name": "Golden State Warriors",
+      "abbreviation": "GSW"
     },
     {
       "id": 11,
+      "conference": "West",
+      "division": "Southwest",
       "city": "Houston",
       "name": "Rockets",
-      "abbreviation": "HOU",
-      "conference": "West"
+      "full_name": "Houston Rockets",
+      "abbreviation": "HOU"
     },
     {
       "id": 12,
+      "conference": "East",
+      "division": "Central",
       "city": "Indiana",
       "name": "Pacers",
-      "abbreviation": "IND",
-      "conference": "East"
+      "full_name": "Indiana Pacers",
+      "abbreviation": "IND"
     },
     {
       "id": 13,
+      "conference": "West",
+      "division": "Pacific",
       "city": "LA",
       "name": "Clippers",
-      "abbreviation": "LAC",
-      "conference": "West"
+      "full_name": "LA Clippers",
+      "abbreviation": "LAC"
     },
     {
       "id": 14,
+      "conference": "West",
+      "division": "Pacific",
       "city": "Los Angeles",
       "name": "Lakers",
-      "abbreviation": "LAL",
-      "conference": "West"
+      "full_name": "Los Angeles Lakers",
+      "abbreviation": "LAL"
     },
     {
       "id": 15,
+      "conference": "West",
+      "division": "Southwest",
       "city": "Memphis",
       "name": "Grizzlies",
-      "abbreviation": "MEM",
-      "conference": "West"
+      "full_name": "Memphis Grizzlies",
+      "abbreviation": "MEM"
     },
     {
       "id": 16,
+      "conference": "East",
+      "division": "Southeast",
       "city": "Miami",
       "name": "Heat",
-      "abbreviation": "MIA",
-      "conference": "East"
+      "full_name": "Miami Heat",
+      "abbreviation": "MIA"
     },
     {
       "id": 17,
+      "conference": "East",
+      "division": "Central",
       "city": "Milwaukee",
       "name": "Bucks",
-      "abbreviation": "MIL",
-      "conference": "East"
+      "full_name": "Milwaukee Bucks",
+      "abbreviation": "MIL"
     },
     {
       "id": 18,
+      "conference": "West",
+      "division": "Northwest",
       "city": "Minnesota",
       "name": "Timberwolves",
-      "abbreviation": "MIN",
-      "conference": "West"
+      "full_name": "Minnesota Timberwolves",
+      "abbreviation": "MIN"
     },
     {
       "id": 19,
+      "conference": "West",
+      "division": "Southwest",
       "city": "New Orleans",
       "name": "Pelicans",
-      "abbreviation": "NOP",
-      "conference": "West"
+      "full_name": "New Orleans Pelicans",
+      "abbreviation": "NOP"
     },
     {
       "id": 20,
+      "conference": "East",
+      "division": "Atlantic",
       "city": "New York",
       "name": "Knicks",
-      "abbreviation": "NYK",
-      "conference": "East"
+      "full_name": "New York Knicks",
+      "abbreviation": "NYK"
     },
     {
       "id": 21,
+      "conference": "West",
+      "division": "Northwest",
       "city": "Oklahoma City",
       "name": "Thunder",
-      "abbreviation": "OKC",
-      "conference": "West"
+      "full_name": "Oklahoma City Thunder",
+      "abbreviation": "OKC"
     },
     {
       "id": 22,
+      "conference": "East",
+      "division": "Southeast",
       "city": "Orlando",
       "name": "Magic",
-      "abbreviation": "ORL",
-      "conference": "East"
+      "full_name": "Orlando Magic",
+      "abbreviation": "ORL"
     },
     {
       "id": 23,
+      "conference": "East",
+      "division": "Atlantic",
       "city": "Philadelphia",
       "name": "76ers",
-      "abbreviation": "PHI",
-      "conference": "East"
+      "full_name": "Philadelphia 76ers",
+      "abbreviation": "PHI"
     },
     {
       "id": 24,
+      "conference": "West",
+      "division": "Pacific",
       "city": "Phoenix",
       "name": "Suns",
-      "abbreviation": "PHX",
-      "conference": "West"
+      "full_name": "Phoenix Suns",
+      "abbreviation": "PHX"
     },
     {
       "id": 25,
+      "conference": "West",
+      "division": "Northwest",
       "city": "Portland",
       "name": "Trail Blazers",
-      "abbreviation": "POR",
-      "conference": "West"
+      "full_name": "Portland Trail Blazers",
+      "abbreviation": "POR"
     },
     {
       "id": 26,
+      "conference": "West",
+      "division": "Pacific",
       "city": "Sacramento",
       "name": "Kings",
-      "abbreviation": "SAC",
-      "conference": "West"
+      "full_name": "Sacramento Kings",
+      "abbreviation": "SAC"
     },
     {
       "id": 27,
+      "conference": "West",
+      "division": "Southwest",
       "city": "San Antonio",
       "name": "Spurs",
-      "abbreviation": "SAS",
-      "conference": "West"
+      "full_name": "San Antonio Spurs",
+      "abbreviation": "SAS"
     },
     {
       "id": 28,
+      "conference": "East",
+      "division": "Atlantic",
       "city": "Toronto",
       "name": "Raptors",
-      "abbreviation": "TOR",
-      "conference": "East"
+      "full_name": "Toronto Raptors",
+      "abbreviation": "TOR"
     },
     {
       "id": 29,
+      "conference": "West",
+      "division": "Northwest",
       "city": "Utah",
       "name": "Jazz",
-      "abbreviation": "UTA",
-      "conference": "West"
+      "full_name": "Utah Jazz",
+      "abbreviation": "UTA"
     },
     {
       "id": 30,
+      "conference": "East",
+      "division": "Southeast",
       "city": "Washington",
       "name": "Wizards",
-      "abbreviation": "WAS",
-      "conference": "East"
+      "full_name": "Washington Wizards",
+      "abbreviation": "WAS"
     }
   ],
   "players": [
     {
       "id": 1,
       "name": "Alex Abrines",
-      "position": "PG",
-      "team_id": 21,
-      "overall": 64,
+      "position": "SG",
+      "team_id": null,
+      "overall": 71,
       "stats": {
-        "offense": 75,
-        "defense": 53
+        "offense": 83,
+        "defense": 60
       },
-      "salary": 13480345,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 2,
       "name": "Jaylen Adams",
-      "position": "SG",
-      "team_id": 1,
-      "overall": 60,
+      "position": "PG",
+      "team_id": null,
+      "overall": 83,
       "stats": {
-        "offense": 58,
-        "defense": 62
+        "offense": 85,
+        "defense": 82
       },
-      "salary": 20350003,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -244,27 +304,27 @@
       "id": 3,
       "name": "Steven Adams",
       "position": "C",
-      "team_id": 11,
-      "overall": 70,
+      "team_id": null,
+      "overall": 67,
       "stats": {
-        "offense": 88,
-        "defense": 53
+        "offense": 62,
+        "defense": 72
       },
-      "salary": 6579763,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 4,
       "name": "Bam Adebayo",
-      "position": "SG",
-      "team_id": 16,
-      "overall": 70,
+      "position": "SF",
+      "team_id": null,
+      "overall": 76,
       "stats": {
-        "offense": 55,
-        "defense": 85
+        "offense": 70,
+        "defense": 83
       },
-      "salary": 27406269,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
@@ -272,13 +332,13 @@
       "id": 5,
       "name": "DeVaughn Akoon-Purcell",
       "position": "PG",
-      "team_id": 8,
-      "overall": 81,
+      "team_id": null,
+      "overall": 65,
       "stats": {
-        "offense": 84,
-        "defense": 78
+        "offense": 70,
+        "defense": 60
       },
-      "salary": 17860027,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -286,41 +346,41 @@
       "id": 6,
       "name": "LaMarcus Aldridge",
       "position": "SF",
-      "team_id": 3,
-      "overall": 81,
+      "team_id": null,
+      "overall": 64,
       "stats": {
-        "offense": 79,
-        "defense": 84
+        "offense": 60,
+        "defense": 68
       },
-      "salary": 26966367,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 7,
       "name": "Rawle Alkins",
-      "position": "PF",
-      "team_id": 5,
-      "overall": 65,
+      "position": "PG",
+      "team_id": null,
+      "overall": 84,
       "stats": {
-        "offense": 53,
-        "defense": 78
+        "offense": 82,
+        "defense": 87
       },
-      "salary": 31710322,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 8,
       "name": "Grayson Allen",
-      "position": "SG",
-      "team_id": 24,
-      "overall": 76,
+      "position": "PG",
+      "team_id": null,
+      "overall": 84,
       "stats": {
-        "offense": 65,
-        "defense": 87
+        "offense": 85,
+        "defense": 83
       },
-      "salary": 20033074,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -328,69 +388,69 @@
       "id": 9,
       "name": "Jarrett Allen",
       "position": "C",
-      "team_id": 6,
-      "overall": 66,
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 50,
-        "defense": 82
+        "offense": 88,
+        "defense": 60
       },
-      "salary": 15303633,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 10,
       "name": "Al-Farouq Aminu",
-      "position": "C",
-      "team_id": 25,
-      "overall": 76,
+      "position": "PF",
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 77,
-        "defense": 75
+        "offense": 81,
+        "defense": 64
       },
-      "salary": 6768649,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 11,
       "name": "Justin Anderson",
-      "position": "PF",
-      "team_id": 12,
-      "overall": 53,
+      "position": "SG",
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 54,
-        "defense": 53
+        "offense": 79,
+        "defense": 77
       },
-      "salary": 5909740,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 12,
       "name": "Kyle Anderson",
-      "position": "PG",
-      "team_id": 18,
-      "overall": 69,
+      "position": "SF",
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 50,
-        "defense": 88
+        "offense": 77,
+        "defense": 71
       },
-      "salary": 25294938,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 13,
       "name": "Ryan Anderson",
-      "position": "SG",
-      "team_id": 19,
-      "overall": 77,
+      "position": "SF",
+      "team_id": null,
+      "overall": 67,
       "stats": {
-        "offense": 70,
-        "defense": 85
+        "offense": 62,
+        "defense": 73
       },
-      "salary": 27199199,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -398,55 +458,55 @@
       "id": 14,
       "name": "Ike Anigbogu",
       "position": "C",
-      "team_id": 12,
-      "overall": 76,
+      "team_id": null,
+      "overall": 83,
       "stats": {
-        "offense": 67,
-        "defense": 86
+        "offense": 79,
+        "defense": 87
       },
-      "salary": 35376472,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 15,
       "name": "Giannis Antetokounmpo",
-      "position": "SG",
-      "team_id": 17,
-      "overall": 63,
+      "position": "PF",
+      "team_id": null,
+      "overall": 76,
       "stats": {
-        "offense": 53,
-        "defense": 74
+        "offense": 78,
+        "defense": 75
       },
-      "salary": 11998928,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 16,
       "name": "Kostas Antetokounmpo",
-      "position": "PF",
-      "team_id": 5,
-      "overall": 61,
+      "position": "SF",
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 62,
-        "defense": 61
+        "offense": 85,
+        "defense": 60
       },
-      "salary": 34037148,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 17,
       "name": "Carmelo Anthony",
-      "position": "SG",
-      "team_id": 14,
-      "overall": 74,
+      "position": "PF",
+      "team_id": null,
+      "overall": 69,
       "stats": {
-        "offense": 65,
-        "defense": 84
+        "offense": 74,
+        "defense": 65
       },
-      "salary": 18078576,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -454,55 +514,55 @@
       "id": 18,
       "name": "OG Anunoby",
       "position": "SF",
-      "team_id": 20,
-      "overall": 66,
+      "team_id": null,
+      "overall": 60,
       "stats": {
-        "offense": 59,
-        "defense": 73
+        "offense": 61,
+        "defense": 60
       },
-      "salary": 14019273,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 19,
       "name": "Ryan Arcidiacono",
-      "position": "PF",
-      "team_id": 20,
-      "overall": 68,
+      "position": "PG",
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 66,
-        "defense": 70
+        "offense": 85,
+        "defense": 71
       },
-      "salary": 23433455,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 20,
       "name": "Trevor Ariza",
-      "position": "SG",
-      "team_id": 14,
-      "overall": 78,
+      "position": "PF",
+      "team_id": null,
+      "overall": 60,
       "stats": {
-        "offense": 82,
-        "defense": 74
+        "offense": 61,
+        "defense": 60
       },
-      "salary": 27618813,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 21,
       "name": "D.J. Augustin",
-      "position": "SF",
-      "team_id": 14,
+      "position": "PG",
+      "team_id": null,
       "overall": 77,
       "stats": {
-        "offense": 66,
-        "defense": 88
+        "offense": 72,
+        "defense": 82
       },
-      "salary": 15077512,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
@@ -510,55 +570,55 @@
       "id": 22,
       "name": "Deandre Ayton",
       "position": "C",
-      "team_id": 14,
-      "overall": 68,
+      "team_id": null,
+      "overall": 76,
       "stats": {
-        "offense": 84,
-        "defense": 53
+        "offense": 65,
+        "defense": 88
       },
-      "salary": 20921283,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 23,
       "name": "Dwayne Bacon",
-      "position": "C",
-      "team_id": 14,
-      "overall": 60,
+      "position": "PG",
+      "team_id": null,
+      "overall": 83,
       "stats": {
-        "offense": 51,
-        "defense": 70
+        "offense": 83,
+        "defense": 83
       },
-      "salary": 31285134,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 24,
       "name": "Marvin Bagley III",
-      "position": "SG",
-      "team_id": 7,
-      "overall": 80,
+      "position": "SF",
+      "team_id": null,
+      "overall": 87,
       "stats": {
-        "offense": 78,
-        "defense": 82
+        "offense": 86,
+        "defense": 88
       },
-      "salary": 3203175,
+      "salary": 35000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 25,
       "name": "Ron Baker",
-      "position": "SG",
-      "team_id": 20,
-      "overall": 79,
+      "position": "PG",
+      "team_id": null,
+      "overall": 73,
       "stats": {
-        "offense": 71,
-        "defense": 88
+        "offense": 68,
+        "defense": 79
       },
-      "salary": 32492080,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -566,27 +626,27 @@
       "id": 26,
       "name": "Wade Baldwin IV",
       "position": "PG",
-      "team_id": 15,
-      "overall": 81,
+      "team_id": null,
+      "overall": 82,
       "stats": {
         "offense": 81,
-        "defense": 82
+        "defense": 84
       },
-      "salary": 23500099,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 27,
       "name": "Lonzo Ball",
-      "position": "PF",
-      "team_id": 6,
-      "overall": 78,
+      "position": "PG",
+      "team_id": null,
+      "overall": 73,
       "stats": {
-        "offense": 81,
-        "defense": 75
+        "offense": 60,
+        "defense": 87
       },
-      "salary": 12570449,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -594,27 +654,27 @@
       "id": 28,
       "name": "Mo Bamba",
       "position": "C",
-      "team_id": 29,
-      "overall": 51,
+      "team_id": null,
+      "overall": 64,
       "stats": {
-        "offense": 50,
-        "defense": 52
+        "offense": 69,
+        "defense": 60
       },
-      "salary": 28278144,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 29,
       "name": "J.J. Barea",
-      "position": "C",
-      "team_id": 7,
-      "overall": 58,
+      "position": "PG",
+      "team_id": null,
+      "overall": 67,
       "stats": {
-        "offense": 60,
-        "defense": 56
+        "offense": 70,
+        "defense": 64
       },
-      "salary": 7834872,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -622,27 +682,27 @@
       "id": 30,
       "name": "Harrison Barnes",
       "position": "SF",
-      "team_id": 27,
-      "overall": 54,
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 52,
-        "defense": 56
+        "offense": 88,
+        "defense": 61
       },
-      "salary": 12029856,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 31,
       "name": "Will Barton",
-      "position": "SF",
-      "team_id": 28,
-      "overall": 81,
+      "position": "PG",
+      "team_id": null,
+      "overall": 79,
       "stats": {
-        "offense": 82,
-        "defense": 81
+        "offense": 89,
+        "defense": 69
       },
-      "salary": 33449317,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
@@ -650,13 +710,13 @@
       "id": 32,
       "name": "Keita Bates-Diop",
       "position": "PF",
-      "team_id": 18,
-      "overall": 59,
+      "team_id": null,
+      "overall": 68,
       "stats": {
-        "offense": 64,
-        "defense": 55
+        "offense": 61,
+        "defense": 75
       },
-      "salary": 25856432,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -664,13 +724,13 @@
       "id": 33,
       "name": "Nicolas Batum",
       "position": "SG",
-      "team_id": 13,
-      "overall": 61,
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 64,
-        "defense": 58
+        "offense": 70,
+        "defense": 78
       },
-      "salary": 4407954,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -678,167 +738,167 @@
       "id": 34,
       "name": "Jerryd Bayless",
       "position": "SG",
-      "team_id": 17,
-      "overall": 75,
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 79,
-        "defense": 71
+        "offense": 83,
+        "defense": 74
       },
-      "salary": 18323098,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 35,
       "name": "Aron Baynes",
-      "position": "PF",
-      "team_id": 9,
-      "overall": 66,
+      "position": "SF",
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 50,
-        "defense": 83
+        "offense": 76,
+        "defense": 64
       },
-      "salary": 16132169,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 36,
       "name": "Kent Bazemore",
-      "position": "SF",
-      "team_id": 26,
-      "overall": 79,
+      "position": "SG",
+      "team_id": null,
+      "overall": 75,
       "stats": {
-        "offense": 71,
-        "defense": 87
+        "offense": 70,
+        "defense": 81
       },
-      "salary": 4014948,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 37,
       "name": "Bradley Beal",
-      "position": "C",
-      "team_id": 13,
-      "overall": 79,
+      "position": "SG",
+      "team_id": null,
+      "overall": 65,
       "stats": {
-        "offense": 70,
-        "defense": 88
+        "offense": 64,
+        "defense": 66
       },
-      "salary": 31356616,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 38,
       "name": "Malik Beasley",
-      "position": "SG",
-      "team_id": 9,
-      "overall": 69,
+      "position": "PG",
+      "team_id": null,
+      "overall": 63,
       "stats": {
-        "offense": 60,
-        "defense": 79
+        "offense": 65,
+        "defense": 61
       },
-      "salary": 4561045,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 39,
       "name": "Michael Beasley",
-      "position": "SG",
-      "team_id": 16,
-      "overall": 73,
+      "position": "SF",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 67,
-        "defense": 79
+        "offense": 84,
+        "defense": 76
       },
-      "salary": 25061961,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 40,
       "name": "Marco Belinelli",
-      "position": "SF",
-      "team_id": 27,
-      "overall": 74,
+      "position": "PG",
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 66,
-        "defense": 82
+        "offense": 86,
+        "defense": 68
       },
-      "salary": 1921837,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 41,
       "name": "Jordan Bell",
-      "position": "C",
-      "team_id": 5,
-      "overall": 69,
+      "position": "PF",
+      "team_id": null,
+      "overall": 79,
       "stats": {
-        "offense": 81,
-        "defense": 58
+        "offense": 77,
+        "defense": 81
       },
-      "salary": 13828503,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 42,
       "name": "DeAndre' Bembry",
-      "position": "PF",
-      "team_id": 17,
-      "overall": 66,
+      "position": "SF",
+      "team_id": null,
+      "overall": 83,
       "stats": {
-        "offense": 67,
-        "defense": 65
+        "offense": 84,
+        "defense": 82
       },
-      "salary": 1946729,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 43,
       "name": "Dragan Bender",
-      "position": "SG",
-      "team_id": 24,
-      "overall": 73,
+      "position": "SF",
+      "team_id": null,
+      "overall": 62,
       "stats": {
-        "offense": 73,
-        "defense": 74
+        "offense": 64,
+        "defense": 61
       },
-      "salary": 7764597,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 44,
       "name": "Davis Bertans",
-      "position": "C",
-      "team_id": 4,
-      "overall": 81,
+      "position": "PF",
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 88,
-        "defense": 75
+        "offense": 72,
+        "defense": 84
       },
-      "salary": 33268812,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 45,
       "name": "Patrick Beverley",
-      "position": "SF",
-      "team_id": 17,
-      "overall": 59,
+      "position": "PG",
+      "team_id": null,
+      "overall": 73,
       "stats": {
-        "offense": 64,
-        "defense": 55
+        "offense": 82,
+        "defense": 65
       },
-      "salary": 31817648,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -846,13 +906,13 @@
       "id": 46,
       "name": "Khem Birch",
       "position": "C",
-      "team_id": 27,
-      "overall": 78,
+      "team_id": null,
+      "overall": 66,
       "stats": {
-        "offense": 69,
-        "defense": 87
+        "offense": 68,
+        "defense": 65
       },
-      "salary": 13255672,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -860,13 +920,13 @@
       "id": 47,
       "name": "Jabari Bird",
       "position": "SG",
-      "team_id": 2,
-      "overall": 62,
+      "team_id": null,
+      "overall": 83,
       "stats": {
-        "offense": 56,
-        "defense": 69
+        "offense": 84,
+        "defense": 82
       },
-      "salary": 22987700,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -874,125 +934,125 @@
       "id": 48,
       "name": "Bismack Biyombo",
       "position": "C",
-      "team_id": 27,
+      "team_id": null,
       "overall": 62,
       "stats": {
-        "offense": 73,
-        "defense": 51
+        "offense": 64,
+        "defense": 60
       },
-      "salary": 4285520,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 49,
       "name": "Nemanja Bjelica",
-      "position": "PG",
-      "team_id": 10,
-      "overall": 62,
+      "position": "PF",
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 51,
-        "defense": 74
+        "offense": 63,
+        "defense": 82
       },
-      "salary": 1516912,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 50,
       "name": "Antonio Blakeney",
-      "position": "C",
-      "team_id": 5,
-      "overall": 60,
+      "position": "PG",
+      "team_id": null,
+      "overall": 69,
       "stats": {
         "offense": 64,
-        "defense": 56
+        "defense": 75
       },
-      "salary": 4273370,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 51,
       "name": "Eric Bledsoe",
-      "position": "PF",
-      "team_id": 25,
-      "overall": 69,
+      "position": "PG",
+      "team_id": null,
+      "overall": 68,
       "stats": {
-        "offense": 53,
-        "defense": 86
+        "offense": 76,
+        "defense": 60
       },
-      "salary": 26226902,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 52,
       "name": "Trevon Bluiett",
-      "position": "PF",
-      "team_id": 29,
-      "overall": 82,
+      "position": "PG",
+      "team_id": null,
+      "overall": 66,
       "stats": {
-        "offense": 75,
-        "defense": 89
+        "offense": 66,
+        "defense": 66
       },
-      "salary": 13286641,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 53,
       "name": "Bogdan Bogdanovic",
-      "position": "PF",
-      "team_id": 13,
-      "overall": 71,
+      "position": "SG",
+      "team_id": null,
+      "overall": 79,
       "stats": {
-        "offense": 86,
-        "defense": 56
+        "offense": 83,
+        "defense": 76
       },
-      "salary": 16318358,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 54,
       "name": "Bojan Bogdanovic",
-      "position": "C",
-      "team_id": 20,
-      "overall": 65,
+      "position": "SF",
+      "team_id": null,
+      "overall": 69,
       "stats": {
-        "offense": 67,
-        "defense": 63
+        "offense": 63,
+        "defense": 75
       },
-      "salary": 33766196,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 55,
       "name": "Jonah Bolden",
-      "position": "C",
-      "team_id": 23,
-      "overall": 68,
+      "position": "PF",
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 77,
-        "defense": 60
+        "offense": 76,
+        "defense": 78
       },
-      "salary": 14690793,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 56,
       "name": "Isaac Bonga",
-      "position": "SG",
-      "team_id": 28,
-      "overall": 56,
+      "position": "PG",
+      "team_id": null,
+      "overall": 76,
       "stats": {
-        "offense": 63,
-        "defense": 50
+        "offense": 87,
+        "defense": 65
       },
-      "salary": 34310290,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
@@ -1000,41 +1060,41 @@
       "id": 57,
       "name": "Devin Booker",
       "position": "PG",
-      "team_id": 24,
-      "overall": 60,
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 59,
-        "defense": 61
+        "offense": 71,
+        "defense": 89
       },
-      "salary": 20004884,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 58,
       "name": "Chris Boucher",
-      "position": "PG",
-      "team_id": 2,
-      "overall": 72,
+      "position": "SF",
+      "team_id": null,
+      "overall": 84,
       "stats": {
-        "offense": 65,
-        "defense": 79
+        "offense": 85,
+        "defense": 84
       },
-      "salary": 2692928,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 59,
       "name": "Avery Bradley",
-      "position": "SG",
-      "team_id": 14,
-      "overall": 79,
+      "position": "PG",
+      "team_id": null,
+      "overall": 87,
       "stats": {
         "offense": 85,
-        "defense": 73
+        "defense": 89
       },
-      "salary": 34583189,
+      "salary": 35000000,
       "injury": null,
       "morale": 100
     },
@@ -1042,111 +1102,111 @@
       "id": 60,
       "name": "Tony Bradley",
       "position": "C",
-      "team_id": 1,
+      "team_id": null,
       "overall": 67,
       "stats": {
-        "offense": 57,
-        "defense": 77
+        "offense": 63,
+        "defense": 72
       },
-      "salary": 18692392,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 61,
       "name": "Mikal Bridges",
-      "position": "PG",
-      "team_id": 20,
-      "overall": 63,
+      "position": "PF",
+      "team_id": null,
+      "overall": 69,
       "stats": {
-        "offense": 68,
-        "defense": 59
+        "offense": 75,
+        "defense": 64
       },
-      "salary": 23604993,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 62,
       "name": "Miles Bridges",
-      "position": "PG",
-      "team_id": 4,
-      "overall": 57,
+      "position": "PF",
+      "team_id": null,
+      "overall": 67,
       "stats": {
-        "offense": 50,
-        "defense": 64
+        "offense": 72,
+        "defense": 63
       },
-      "salary": 15733780,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 63,
       "name": "Isaiah Briscoe",
-      "position": "C",
-      "team_id": 22,
-      "overall": 79,
+      "position": "PG",
+      "team_id": null,
+      "overall": 76,
       "stats": {
-        "offense": 89,
-        "defense": 69
+        "offense": 77,
+        "defense": 76
       },
-      "salary": 23623151,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 64,
       "name": "Ryan Broekhoff",
-      "position": "SF",
-      "team_id": 7,
-      "overall": 59,
+      "position": "PG",
+      "team_id": null,
+      "overall": 75,
       "stats": {
-        "offense": 56,
-        "defense": 62
+        "offense": 85,
+        "defense": 66
       },
-      "salary": 20965184,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 65,
       "name": "Malcolm Brogdon",
-      "position": "C",
-      "team_id": 20,
-      "overall": 72,
+      "position": "SG",
+      "team_id": null,
+      "overall": 81,
       "stats": {
-        "offense": 70,
-        "defense": 74
+        "offense": 86,
+        "defense": 77
       },
-      "salary": 27746388,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 66,
       "name": "Dillon Brooks",
-      "position": "C",
-      "team_id": 24,
-      "overall": 62,
+      "position": "SG",
+      "team_id": null,
+      "overall": 85,
       "stats": {
-        "offense": 65,
-        "defense": 59
+        "offense": 81,
+        "defense": 89
       },
-      "salary": 34590704,
+      "salary": 35000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 67,
       "name": "MarShon Brooks",
-      "position": "SF",
-      "team_id": 3,
-      "overall": 73,
+      "position": "PG",
+      "team_id": null,
+      "overall": 64,
       "stats": {
-        "offense": 59,
-        "defense": 87
+        "offense": 61,
+        "defense": 68
       },
-      "salary": 14288380,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -1154,69 +1214,69 @@
       "id": 68,
       "name": "Troy Brown Jr.",
       "position": "PF",
-      "team_id": 9,
-      "overall": 85,
+      "team_id": null,
+      "overall": 76,
       "stats": {
-        "offense": 89,
-        "defense": 81
+        "offense": 70,
+        "defense": 82
       },
-      "salary": 8772189,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 69,
       "name": "Bruce Brown",
-      "position": "C",
-      "team_id": 8,
-      "overall": 66,
+      "position": "SG",
+      "team_id": null,
+      "overall": 79,
       "stats": {
-        "offense": 52,
-        "defense": 80
+        "offense": 81,
+        "defense": 78
       },
-      "salary": 25398803,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 70,
       "name": "Jaylen Brown",
-      "position": "SF",
-      "team_id": 2,
-      "overall": 71,
+      "position": "SG",
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 66,
+        "offense": 78,
         "defense": 76
       },
-      "salary": 8012292,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 71,
       "name": "Lorenzo Brown",
-      "position": "C",
-      "team_id": 28,
-      "overall": 66,
+      "position": "SG",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 65,
-        "defense": 68
+        "offense": 89,
+        "defense": 71
       },
-      "salary": 33163216,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 72,
       "name": "Sterling Brown",
-      "position": "C",
-      "team_id": 14,
-      "overall": 80,
+      "position": "SG",
+      "team_id": null,
+      "overall": 71,
       "stats": {
-        "offense": 73,
-        "defense": 88
+        "offense": 81,
+        "defense": 62
       },
-      "salary": 18671224,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1224,13 +1284,13 @@
       "id": 73,
       "name": "Jalen Brunson",
       "position": "SG",
-      "team_id": 20,
-      "overall": 72,
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 55,
-        "defense": 89
+        "offense": 70,
+        "defense": 70
       },
-      "salary": 23945051,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1238,83 +1298,83 @@
       "id": 74,
       "name": "Thomas Bryant",
       "position": "C",
-      "team_id": 6,
-      "overall": 71,
+      "team_id": null,
+      "overall": 82,
       "stats": {
-        "offense": 56,
+        "offense": 78,
         "defense": 86
       },
-      "salary": 16648839,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 75,
       "name": "Reggie Bullock",
-      "position": "PG",
-      "team_id": 11,
-      "overall": 67,
+      "position": "SG",
+      "team_id": null,
+      "overall": 81,
       "stats": {
-        "offense": 59,
-        "defense": 75
+        "offense": 81,
+        "defense": 81
       },
-      "salary": 9802382,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 76,
       "name": "Trey Burke",
-      "position": "SF",
-      "team_id": 7,
-      "overall": 63,
+      "position": "SG",
+      "team_id": null,
+      "overall": 86,
       "stats": {
-        "offense": 61,
-        "defense": 66
+        "offense": 89,
+        "defense": 84
       },
-      "salary": 17146520,
+      "salary": 35000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 77,
       "name": "Alec Burks",
-      "position": "PF",
-      "team_id": 16,
-      "overall": 64,
+      "position": "PG",
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 77,
-        "defense": 52
+        "offense": 69,
+        "defense": 88
       },
-      "salary": 10922978,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 78,
       "name": "Deonte Burton",
-      "position": "PG",
-      "team_id": 21,
-      "overall": 79,
+      "position": "SG",
+      "team_id": null,
+      "overall": 63,
       "stats": {
-        "offense": 81,
-        "defense": 78
+        "offense": 65,
+        "defense": 62
       },
-      "salary": 9679976,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 79,
       "name": "Jimmy Butler",
-      "position": "SG",
-      "team_id": 10,
-      "overall": 70,
+      "position": "PG",
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 73,
-        "defense": 68
+        "offense": 68,
+        "defense": 89
       },
-      "salary": 2966312,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
@@ -1322,41 +1382,41 @@
       "id": 80,
       "name": "Jose Calderon",
       "position": "SG",
-      "team_id": 28,
-      "overall": 74,
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 79,
-        "defense": 70
+        "offense": 87,
+        "defense": 68
       },
-      "salary": 31943491,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 81,
       "name": "Kentavious Caldwell-Pope",
-      "position": "PG",
-      "team_id": 15,
-      "overall": 71,
+      "position": "SG",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 65,
-        "defense": 78
+        "offense": 84,
+        "defense": 76
       },
-      "salary": 15515659,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 82,
       "name": "Isaiah Canaan",
-      "position": "SG",
-      "team_id": 23,
-      "overall": 82,
+      "position": "PG",
+      "team_id": null,
+      "overall": 71,
       "stats": {
-        "offense": 85,
-        "defense": 80
+        "offense": 74,
+        "defense": 68
       },
-      "salary": 7883510,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1364,41 +1424,41 @@
       "id": 83,
       "name": "Clint Capela",
       "position": "C",
-      "team_id": 11,
-      "overall": 63,
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 65,
+        "offense": 79,
         "defense": 61
       },
-      "salary": 26866023,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 84,
       "name": "DeMarre Carroll",
-      "position": "SG",
-      "team_id": 1,
-      "overall": 74,
+      "position": "PF",
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 63,
-        "defense": 85
+        "offense": 64,
+        "defense": 76
       },
-      "salary": 10520985,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 85,
       "name": "Wendell Carter Jr.",
-      "position": "SG",
-      "team_id": 22,
-      "overall": 84,
+      "position": "PF",
+      "team_id": null,
+      "overall": 71,
       "stats": {
-        "offense": 88,
-        "defense": 81
+        "offense": 60,
+        "defense": 82
       },
-      "salary": 33885772,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1406,41 +1466,41 @@
       "id": 86,
       "name": "Michael Carter-Williams",
       "position": "PG",
-      "team_id": 22,
-      "overall": 56,
+      "team_id": null,
+      "overall": 75,
       "stats": {
-        "offense": 52,
-        "defense": 60
+        "offense": 73,
+        "defense": 77
       },
-      "salary": 17911287,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 87,
       "name": "Jevon Carter",
-      "position": "SF",
-      "team_id": 22,
-      "overall": 81,
+      "position": "SG",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 78,
-        "defense": 85
+        "offense": 77,
+        "defense": 84
       },
-      "salary": 15417591,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 88,
       "name": "Vince Carter",
-      "position": "PF",
-      "team_id": 28,
-      "overall": 71,
+      "position": "PG",
+      "team_id": null,
+      "overall": 68,
       "stats": {
-        "offense": 62,
-        "defense": 81
+        "offense": 61,
+        "defense": 76
       },
-      "salary": 8065985,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -1448,13 +1508,13 @@
       "id": 89,
       "name": "Alex Caruso",
       "position": "PG",
-      "team_id": 21,
-      "overall": 74,
+      "team_id": null,
+      "overall": 81,
       "stats": {
-        "offense": 76,
-        "defense": 73
+        "offense": 80,
+        "defense": 82
       },
-      "salary": 22604182,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -1462,13 +1522,13 @@
       "id": 90,
       "name": "Omri Casspi",
       "position": "PF",
-      "team_id": 26,
-      "overall": 73,
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 66,
-        "defense": 81
+        "offense": 72,
+        "defense": 68
       },
-      "salary": 22558153,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1476,41 +1536,41 @@
       "id": 91,
       "name": "Willie Cauley-Stein",
       "position": "C",
-      "team_id": 23,
-      "overall": 76,
+      "team_id": null,
+      "overall": 75,
       "stats": {
-        "offense": 73,
-        "defense": 80
+        "offense": 67,
+        "defense": 84
       },
-      "salary": 10974418,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 92,
       "name": "Troy Caupain",
-      "position": "PF",
-      "team_id": 22,
-      "overall": 67,
+      "position": "SG",
+      "team_id": null,
+      "overall": 69,
       "stats": {
-        "offense": 75,
-        "defense": 60
+        "offense": 66,
+        "defense": 73
       },
-      "salary": 22231830,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 93,
       "name": "Tyler Cavanaugh",
-      "position": "SG",
-      "team_id": 1,
-      "overall": 72,
+      "position": "SF",
+      "team_id": null,
+      "overall": 79,
       "stats": {
-        "offense": 82,
-        "defense": 63
+        "offense": 75,
+        "defense": 83
       },
-      "salary": 13105624,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
@@ -1518,27 +1578,27 @@
       "id": 94,
       "name": "Tyson Chandler",
       "position": "C",
-      "team_id": 20,
-      "overall": 52,
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 50,
-        "defense": 54
+        "offense": 61,
+        "defense": 84
       },
-      "salary": 26124068,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 95,
       "name": "Wilson Chandler",
-      "position": "PG",
-      "team_id": 8,
-      "overall": 73,
+      "position": "SF",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 62,
-        "defense": 85
+        "offense": 81,
+        "defense": 79
       },
-      "salary": 13377280,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -1546,97 +1606,97 @@
       "id": 96,
       "name": "Joe Chealey",
       "position": "PG",
-      "team_id": 4,
-      "overall": 61,
+      "team_id": null,
+      "overall": 79,
       "stats": {
-        "offense": 51,
-        "defense": 71
+        "offense": 78,
+        "defense": 80
       },
-      "salary": 24226062,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 97,
       "name": "Marquese Chriss",
-      "position": "C",
-      "team_id": 7,
-      "overall": 87,
+      "position": "PF",
+      "team_id": null,
+      "overall": 68,
       "stats": {
-        "offense": 88,
-        "defense": 86
+        "offense": 69,
+        "defense": 67
       },
-      "salary": 31562704,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 98,
       "name": "Gary Clark",
-      "position": "SF",
-      "team_id": 19,
-      "overall": 74,
+      "position": "PF",
+      "team_id": null,
+      "overall": 66,
       "stats": {
-        "offense": 63,
-        "defense": 85
+        "offense": 70,
+        "defense": 62
       },
-      "salary": 29645843,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 99,
       "name": "Ian Clark",
-      "position": "C",
-      "team_id": 10,
-      "overall": 71,
+      "position": "PG",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 78,
-        "defense": 65
+        "offense": 74,
+        "defense": 86
       },
-      "salary": 35553586,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 100,
       "name": "Jordan Clarkson",
-      "position": "PF",
-      "team_id": 20,
-      "overall": 58,
+      "position": "PG",
+      "team_id": null,
+      "overall": 76,
       "stats": {
-        "offense": 66,
-        "defense": 51
+        "offense": 87,
+        "defense": 65
       },
-      "salary": 20077725,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 101,
       "name": "John Collins",
-      "position": "C",
-      "team_id": 13,
-      "overall": 77,
+      "position": "PF",
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 84,
-        "defense": 70
+        "offense": 66,
+        "defense": 78
       },
-      "salary": 29642549,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 102,
       "name": "Zach Collins",
-      "position": "PG",
-      "team_id": 5,
-      "overall": 71,
+      "position": "PF",
+      "team_id": null,
+      "overall": 65,
       "stats": {
-        "offense": 63,
-        "defense": 80
+        "offense": 68,
+        "defense": 62
       },
-      "salary": 27098689,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -1644,13 +1704,13 @@
       "id": 103,
       "name": "Darren Collison",
       "position": "PG",
-      "team_id": 14,
-      "overall": 76,
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 82,
-        "defense": 71
+        "offense": 75,
+        "defense": 86
       },
-      "salary": 26254522,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -1658,27 +1718,27 @@
       "id": 104,
       "name": "Mike Conley",
       "position": "PG",
-      "team_id": 18,
-      "overall": 75,
+      "team_id": null,
+      "overall": 64,
       "stats": {
-        "offense": 71,
-        "defense": 79
+        "offense": 68,
+        "defense": 60
       },
-      "salary": 13819570,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 105,
       "name": "Pat Connaughton",
-      "position": "SG",
-      "team_id": 4,
-      "overall": 75,
+      "position": "PG",
+      "team_id": null,
+      "overall": 73,
       "stats": {
-        "offense": 79,
-        "defense": 72
+        "offense": 78,
+        "defense": 69
       },
-      "salary": 25826073,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1686,13 +1746,13 @@
       "id": 106,
       "name": "Quinn Cook",
       "position": "SG",
-      "team_id": 26,
-      "overall": 67,
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 76,
-        "defense": 58
+        "offense": 62,
+        "defense": 82
       },
-      "salary": 30222721,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1700,27 +1760,27 @@
       "id": 107,
       "name": "DeMarcus Cousins",
       "position": "C",
-      "team_id": 8,
-      "overall": 70,
+      "team_id": null,
+      "overall": 69,
       "stats": {
-        "offense": 76,
-        "defense": 64
+        "offense": 67,
+        "defense": 72
       },
-      "salary": 16244815,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 108,
       "name": "Robert Covington",
-      "position": "SG",
-      "team_id": 23,
-      "overall": 73,
+      "position": "SF",
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 70,
-        "defense": 76
+        "offense": 76,
+        "defense": 72
       },
-      "salary": 19648324,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1728,27 +1788,27 @@
       "id": 109,
       "name": "Allen Crabbe",
       "position": "PG",
-      "team_id": 25,
-      "overall": 82,
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 85,
-        "defense": 79
+        "offense": 70,
+        "defense": 87
       },
-      "salary": 2108797,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 110,
       "name": "Torrey Craig",
-      "position": "SF",
-      "team_id": 2,
-      "overall": 72,
+      "position": "PF",
+      "team_id": null,
+      "overall": 83,
       "stats": {
-        "offense": 74,
-        "defense": 70
+        "offense": 83,
+        "defense": 83
       },
-      "salary": 23719206,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -1756,83 +1816,83 @@
       "id": 111,
       "name": "Jamal Crawford",
       "position": "SG",
-      "team_id": 13,
-      "overall": 77,
+      "team_id": null,
+      "overall": 69,
       "stats": {
-        "offense": 78,
-        "defense": 77
+        "offense": 68,
+        "defense": 71
       },
-      "salary": 33154517,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 112,
       "name": "Jae Crowder",
-      "position": "SG",
-      "team_id": 26,
-      "overall": 57,
+      "position": "SF",
+      "team_id": null,
+      "overall": 86,
       "stats": {
-        "offense": 54,
-        "defense": 61
+        "offense": 84,
+        "defense": 88
       },
-      "salary": 33972621,
+      "salary": 35000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 113,
       "name": "Dante Cunningham",
-      "position": "PF",
-      "team_id": 19,
-      "overall": 74,
+      "position": "SF",
+      "team_id": null,
+      "overall": 62,
       "stats": {
-        "offense": 78,
-        "defense": 70
+        "offense": 63,
+        "defense": 61
       },
-      "salary": 21572305,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 114,
       "name": "Seth Curry",
-      "position": "PF",
-      "team_id": 10,
-      "overall": 67,
+      "position": "PG",
+      "team_id": null,
+      "overall": 87,
       "stats": {
-        "offense": 57,
-        "defense": 77
+        "offense": 88,
+        "defense": 87
       },
-      "salary": 1092531,
+      "salary": 35000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 115,
       "name": "Stephen Curry",
-      "position": "C",
-      "team_id": 10,
-      "overall": 81,
+      "position": "PG",
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 87,
-        "defense": 76
+        "offense": 75,
+        "defense": 80
       },
-      "salary": 13176616,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 116,
       "name": "Troy Daniels",
-      "position": "SG",
-      "team_id": 24,
-      "overall": 62,
+      "position": "PG",
+      "team_id": null,
+      "overall": 73,
       "stats": {
-        "offense": 73,
-        "defense": 51
+        "offense": 74,
+        "defense": 72
       },
-      "salary": 33933353,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1840,13 +1900,13 @@
       "id": 117,
       "name": "Anthony Davis",
       "position": "PF",
-      "team_id": 30,
-      "overall": 57,
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 58,
-        "defense": 56
+        "offense": 78,
+        "defense": 76
       },
-      "salary": 11050134,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
@@ -1854,13 +1914,13 @@
       "id": 118,
       "name": "Ed Davis",
       "position": "C",
-      "team_id": 6,
-      "overall": 66,
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 56,
-        "defense": 76
+        "offense": 84,
+        "defense": 64
       },
-      "salary": 6227391,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1868,13 +1928,13 @@
       "id": 119,
       "name": "Tyler Davis",
       "position": "C",
-      "team_id": 21,
-      "overall": 78,
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 77,
-        "defense": 79
+        "offense": 76,
+        "defense": 65
       },
-      "salary": 16064026,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -1882,27 +1942,27 @@
       "id": 120,
       "name": "Dewayne Dedmon",
       "position": "C",
-      "team_id": 23,
+      "team_id": null,
       "overall": 75,
       "stats": {
-        "offense": 89,
-        "defense": 62
+        "offense": 71,
+        "defense": 79
       },
-      "salary": 9174221,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 121,
       "name": "Sam Dekker",
-      "position": "SF",
-      "team_id": 28,
-      "overall": 72,
+      "position": "PF",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 84,
-        "defense": 60
+        "offense": 86,
+        "defense": 74
       },
-      "salary": 12935668,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -1910,97 +1970,97 @@
       "id": 122,
       "name": "Angel Delgado",
       "position": "C",
-      "team_id": 13,
-      "overall": 66,
+      "team_id": null,
+      "overall": 88,
       "stats": {
-        "offense": 69,
-        "defense": 63
+        "offense": 87,
+        "defense": 89
       },
-      "salary": 28931802,
+      "salary": 35000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 123,
       "name": "Matthew Dellavedova",
-      "position": "SF",
-      "team_id": 26,
-      "overall": 62,
+      "position": "PG",
+      "team_id": null,
+      "overall": 87,
       "stats": {
-        "offense": 50,
-        "defense": 75
+        "offense": 87,
+        "defense": 87
       },
-      "salary": 2232664,
+      "salary": 35000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 124,
       "name": "Luol Deng",
-      "position": "C",
-      "team_id": 5,
-      "overall": 82,
+      "position": "PF",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 75,
-        "defense": 89
+        "offense": 83,
+        "defense": 78
       },
-      "salary": 31936127,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 125,
       "name": "DeMar DeRozan",
-      "position": "PF",
-      "team_id": 26,
-      "overall": 55,
+      "position": "PG",
+      "team_id": null,
+      "overall": 82,
       "stats": {
-        "offense": 61,
-        "defense": 50
+        "offense": 89,
+        "defense": 75
       },
-      "salary": 31734996,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 126,
       "name": "Marcus Derrickson",
-      "position": "SF",
-      "team_id": 10,
-      "overall": 68,
+      "position": "PF",
+      "team_id": null,
+      "overall": 69,
       "stats": {
-        "offense": 82,
-        "defense": 54
+        "offense": 63,
+        "defense": 76
       },
-      "salary": 3631893,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 127,
       "name": "Cheick Diallo",
-      "position": "SF",
-      "team_id": 16,
-      "overall": 57,
+      "position": "PF",
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 57,
-        "defense": 57
+        "offense": 71,
+        "defense": 73
       },
-      "salary": 20982176,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 128,
       "name": "Hamidou Diallo",
-      "position": "SF",
-      "team_id": 30,
-      "overall": 62,
+      "position": "SG",
+      "team_id": null,
+      "overall": 84,
       "stats": {
-        "offense": 73,
-        "defense": 52
+        "offense": 80,
+        "defense": 89
       },
-      "salary": 34338551,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -2008,27 +2068,27 @@
       "id": 129,
       "name": "Gorgui Dieng",
       "position": "C",
-      "team_id": 27,
-      "overall": 65,
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 69,
-        "defense": 61
+        "offense": 83,
+        "defense": 71
       },
-      "salary": 8824188,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 130,
       "name": "Spencer Dinwiddie",
-      "position": "SF",
-      "team_id": 4,
-      "overall": 71,
+      "position": "PG",
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 69,
-        "defense": 74
+        "offense": 68,
+        "defense": 72
       },
-      "salary": 24354504,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -2036,83 +2096,83 @@
       "id": 131,
       "name": "Donte DiVincenzo",
       "position": "SG",
-      "team_id": 18,
-      "overall": 76,
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 71,
-        "defense": 82
+        "offense": 67,
+        "defense": 81
       },
-      "salary": 8544679,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 132,
       "name": "Luka Doncic",
-      "position": "PF",
-      "team_id": 14,
-      "overall": 53,
+      "position": "SG",
+      "team_id": null,
+      "overall": 65,
       "stats": {
-        "offense": 51,
-        "defense": 55
+        "offense": 67,
+        "defense": 63
       },
-      "salary": 34118559,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 133,
       "name": "Tyler Dorsey",
-      "position": "C",
-      "team_id": 7,
-      "overall": 81,
+      "position": "SG",
+      "team_id": null,
+      "overall": 82,
       "stats": {
-        "offense": 89,
-        "defense": 74
+        "offense": 80,
+        "defense": 85
       },
-      "salary": 35384524,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 134,
       "name": "Damyean Dotson",
-      "position": "SF",
-      "team_id": 20,
-      "overall": 66,
+      "position": "SG",
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 66,
-        "defense": 67
+        "offense": 81,
+        "defense": 60
       },
-      "salary": 29346453,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 135,
       "name": "PJ Dozier",
-      "position": "C",
-      "team_id": 18,
-      "overall": 60,
+      "position": "SG",
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 51,
-        "defense": 70
+        "offense": 66,
+        "defense": 79
       },
-      "salary": 6830235,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 136,
       "name": "Goran Dragic",
-      "position": "PG",
-      "team_id": 17,
-      "overall": 65,
+      "position": "SG",
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 53,
-        "defense": 77
+        "offense": 80,
+        "defense": 68
       },
-      "salary": 34946826,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -2120,27 +2180,27 @@
       "id": 137,
       "name": "Andre Drummond",
       "position": "C",
-      "team_id": 23,
-      "overall": 59,
+      "team_id": null,
+      "overall": 67,
       "stats": {
-        "offense": 62,
-        "defense": 57
+        "offense": 69,
+        "defense": 66
       },
-      "salary": 29632538,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 138,
       "name": "Jared Dudley",
-      "position": "SF",
-      "team_id": 24,
-      "overall": 78,
+      "position": "PF",
+      "team_id": null,
+      "overall": 88,
       "stats": {
-        "offense": 68,
-        "defense": 89
+        "offense": 89,
+        "defense": 88
       },
-      "salary": 19236078,
+      "salary": 35000000,
       "injury": null,
       "morale": 100
     },
@@ -2148,27 +2208,27 @@
       "id": 139,
       "name": "Kris Dunn",
       "position": "PG",
-      "team_id": 13,
-      "overall": 61,
+      "team_id": null,
+      "overall": 68,
       "stats": {
-        "offense": 58,
-        "defense": 64
+        "offense": 71,
+        "defense": 65
       },
-      "salary": 34645392,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 140,
       "name": "Kevin Durant",
-      "position": "SG",
-      "team_id": 11,
-      "overall": 81,
+      "position": "SF",
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 79,
-        "defense": 84
+        "offense": 63,
+        "defense": 82
       },
-      "salary": 25174371,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -2176,195 +2236,195 @@
       "id": 141,
       "name": "Trevon Duval",
       "position": "SG",
-      "team_id": 17,
-      "overall": 71,
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 67,
-        "defense": 76
+        "offense": 61,
+        "defense": 88
       },
-      "salary": 32327556,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 142,
       "name": "Vincent Edwards",
-      "position": "SF",
-      "team_id": 11,
-      "overall": 79,
+      "position": "PF",
+      "team_id": null,
+      "overall": 73,
       "stats": {
-        "offense": 86,
-        "defense": 72
+        "offense": 68,
+        "defense": 79
       },
-      "salary": 30154396,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 143,
       "name": "Henry Ellenson",
-      "position": "PG",
-      "team_id": 9,
-      "overall": 66,
+      "position": "PF",
+      "team_id": null,
+      "overall": 79,
       "stats": {
-        "offense": 60,
-        "defense": 73
+        "offense": 84,
+        "defense": 75
       },
-      "salary": 15560438,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 144,
       "name": "Wayne Ellington",
-      "position": "C",
-      "team_id": 14,
-      "overall": 61,
+      "position": "PG",
+      "team_id": null,
+      "overall": 75,
       "stats": {
-        "offense": 65,
-        "defense": 57
+        "offense": 81,
+        "defense": 70
       },
-      "salary": 35052206,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 145,
       "name": "Joel Embiid",
-      "position": "SG",
-      "team_id": 23,
-      "overall": 66,
+      "position": "PF",
+      "team_id": null,
+      "overall": 73,
       "stats": {
-        "offense": 58,
+        "offense": 72,
         "defense": 74
       },
-      "salary": 29016942,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 146,
       "name": "James Ennis III",
-      "position": "PF",
-      "team_id": 8,
-      "overall": 61,
+      "position": "SF",
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 52,
-        "defense": 70
+        "offense": 75,
+        "defense": 82
       },
-      "salary": 2027866,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 147,
       "name": "Drew Eubanks",
-      "position": "SF",
-      "team_id": 26,
-      "overall": 56,
+      "position": "PF",
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 58,
-        "defense": 54
+        "offense": 75,
+        "defense": 66
       },
-      "salary": 31817802,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 148,
       "name": "Jacob Evans",
-      "position": "PF",
-      "team_id": 10,
-      "overall": 72,
+      "position": "SG",
+      "team_id": null,
+      "overall": 71,
       "stats": {
-        "offense": 65,
-        "defense": 79
+        "offense": 79,
+        "defense": 64
       },
-      "salary": 9377135,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 149,
       "name": "Keenan Evans",
-      "position": "SF",
-      "team_id": 9,
-      "overall": 64,
+      "position": "PG",
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 68,
-        "defense": 61
+        "offense": 76,
+        "defense": 65
       },
-      "salary": 17446088,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 150,
       "name": "Tyreke Evans",
-      "position": "C",
-      "team_id": 26,
-      "overall": 64,
+      "position": "SG",
+      "team_id": null,
+      "overall": 81,
       "stats": {
-        "offense": 72,
-        "defense": 56
+        "offense": 73,
+        "defense": 89
       },
-      "salary": 32905667,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 151,
       "name": "Dante Exum",
-      "position": "PF",
-      "team_id": 7,
-      "overall": 56,
+      "position": "SG",
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 58,
-        "defense": 55
+        "offense": 80,
+        "defense": 75
       },
-      "salary": 17974224,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 152,
       "name": "Kenneth Faried",
-      "position": "SF",
-      "team_id": 8,
-      "overall": 64,
+      "position": "PF",
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 63,
-        "defense": 65
+        "offense": 72,
+        "defense": 82
       },
-      "salary": 22658846,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 153,
       "name": "Derrick Favors",
-      "position": "PG",
-      "team_id": 11,
-      "overall": 77,
+      "position": "SF",
+      "team_id": null,
+      "overall": 81,
       "stats": {
-        "offense": 83,
-        "defense": 71
+        "offense": 77,
+        "defense": 85
       },
-      "salary": 8860612,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 154,
       "name": "Cristiano Felicio",
-      "position": "PG",
-      "team_id": 5,
-      "overall": 61,
+      "position": "PF",
+      "team_id": null,
+      "overall": 71,
       "stats": {
-        "offense": 67,
-        "defense": 55
+        "offense": 81,
+        "defense": 62
       },
-      "salary": 30246696,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -2372,41 +2432,41 @@
       "id": 155,
       "name": "Raymond Felton",
       "position": "SG",
-      "team_id": 4,
-      "overall": 75,
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 77,
-        "defense": 74
+        "offense": 73,
+        "defense": 81
       },
-      "salary": 10864299,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 156,
       "name": "Terrance Ferguson",
-      "position": "PF",
-      "team_id": 21,
-      "overall": 77,
+      "position": "SG",
+      "team_id": null,
+      "overall": 70,
       "stats": {
-        "offense": 88,
-        "defense": 67
+        "offense": 61,
+        "defense": 80
       },
-      "salary": 13233681,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 157,
       "name": "Yogi Ferrell",
-      "position": "PF",
-      "team_id": 26,
-      "overall": 80,
+      "position": "PG",
+      "team_id": null,
+      "overall": 82,
       "stats": {
-        "offense": 79,
-        "defense": 81
+        "offense": 89,
+        "defense": 76
       },
-      "salary": 9052379,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -2414,83 +2474,83 @@
       "id": 158,
       "name": "Dorian Finney-Smith",
       "position": "SF",
-      "team_id": 11,
-      "overall": 74,
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 66,
-        "defense": 83
+        "offense": 89,
+        "defense": 68
       },
-      "salary": 5003276,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 159,
       "name": "Bryn Forbes",
-      "position": "SF",
-      "team_id": 18,
-      "overall": 76,
+      "position": "SG",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 73,
-        "defense": 80
+        "offense": 83,
+        "defense": 77
       },
-      "salary": 6682190,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 160,
       "name": "Evan Fournier",
-      "position": "SG",
-      "team_id": 9,
-      "overall": 60,
+      "position": "PG",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 57,
-        "defense": 63
+        "offense": 81,
+        "defense": 79
       },
-      "salary": 4521970,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 161,
       "name": "De'Aaron Fox",
-      "position": "C",
-      "team_id": 27,
-      "overall": 77,
+      "position": "PG",
+      "team_id": null,
+      "overall": 64,
       "stats": {
-        "offense": 83,
-        "defense": 71
+        "offense": 61,
+        "defense": 67
       },
-      "salary": 25503741,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 162,
       "name": "Melvin Frazier Jr.",
-      "position": "SG",
-      "team_id": 21,
-      "overall": 62,
+      "position": "PG",
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 68,
-        "defense": 57
+        "offense": 87,
+        "defense": 69
       },
-      "salary": 6418273,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 163,
       "name": "Tim Frazier",
-      "position": "SG",
-      "team_id": 6,
-      "overall": 73,
+      "position": "PG",
+      "team_id": null,
+      "overall": 69,
       "stats": {
-        "offense": 83,
-        "defense": 64
+        "offense": 77,
+        "defense": 61
       },
-      "salary": 21899882,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -2498,13 +2558,13 @@
       "id": 164,
       "name": "Channing Frye",
       "position": "PF",
-      "team_id": 24,
-      "overall": 74,
+      "team_id": null,
+      "overall": 67,
       "stats": {
-        "offense": 78,
-        "defense": 71
+        "offense": 61,
+        "defense": 73
       },
-      "salary": 16499266,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -2512,27 +2572,27 @@
       "id": 165,
       "name": "Markelle Fultz",
       "position": "PG",
-      "team_id": 28,
-      "overall": 63,
+      "team_id": null,
+      "overall": 86,
       "stats": {
-        "offense": 70,
-        "defense": 57
+        "offense": 89,
+        "defense": 83
       },
-      "salary": 12295226,
+      "salary": 35000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 166,
       "name": "Wenyen Gabriel",
-      "position": "PF",
-      "team_id": 2,
-      "overall": 55,
+      "position": "SF",
+      "team_id": null,
+      "overall": 66,
       "stats": {
-        "offense": 56,
-        "defense": 55
+        "offense": 62,
+        "defense": 71
       },
-      "salary": 7126885,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
@@ -2540,27 +2600,27 @@
       "id": 167,
       "name": "Danilo Gallinari",
       "position": "PF",
-      "team_id": 17,
-      "overall": 72,
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 63,
-        "defense": 81
+        "offense": 74,
+        "defense": 82
       },
-      "salary": 32824666,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 168,
       "name": "Langston Galloway",
-      "position": "PG",
-      "team_id": 12,
-      "overall": 57,
+      "position": "SG",
+      "team_id": null,
+      "overall": 82,
       "stats": {
-        "offense": 57,
-        "defense": 58
+        "offense": 75,
+        "defense": 89
       },
-      "salary": 10469933,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
@@ -2568,69 +2628,69 @@
       "id": 169,
       "name": "Marc Gasol",
       "position": "C",
-      "team_id": 15,
-      "overall": 77,
+      "team_id": null,
+      "overall": 67,
       "stats": {
-        "offense": 89,
-        "defense": 65
+        "offense": 60,
+        "defense": 75
       },
-      "salary": 27255563,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 170,
       "name": "Pau Gasol",
-      "position": "C",
-      "team_id": 14,
-      "overall": 71,
+      "position": "SF",
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 83,
-        "defense": 60
+        "offense": 75,
+        "defense": 69
       },
-      "salary": 8018702,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 171,
       "name": "Rudy Gay",
-      "position": "PG",
-      "team_id": 10,
-      "overall": 51,
+      "position": "PF",
+      "team_id": null,
+      "overall": 68,
       "stats": {
-        "offense": 51,
-        "defense": 52
+        "offense": 72,
+        "defense": 65
       },
-      "salary": 32574462,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 172,
       "name": "Paul George",
-      "position": "SG",
-      "team_id": 23,
-      "overall": 64,
+      "position": "PF",
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 73,
-        "defense": 56
+        "offense": 87,
+        "defense": 68
       },
-      "salary": 27191626,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 173,
       "name": "Taj Gibson",
-      "position": "C",
-      "team_id": 15,
-      "overall": 70,
+      "position": "SF",
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 70,
-        "defense": 71
+        "offense": 84,
+        "defense": 61
       },
-      "salary": 26472045,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -2638,27 +2698,27 @@
       "id": 174,
       "name": "Harry Giles III",
       "position": "SF",
-      "team_id": 26,
-      "overall": 71,
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 64,
-        "defense": 78
+        "offense": 79,
+        "defense": 69
       },
-      "salary": 1604391,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 175,
       "name": "Shai Gilgeous-Alexander",
-      "position": "SF",
-      "team_id": 21,
-      "overall": 81,
+      "position": "SG",
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 81,
+        "offense": 76,
         "defense": 81
       },
-      "salary": 20679390,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
@@ -2666,41 +2726,41 @@
       "id": 176,
       "name": "Rudy Gobert",
       "position": "C",
-      "team_id": 18,
-      "overall": 63,
+      "team_id": null,
+      "overall": 76,
       "stats": {
-        "offense": 63,
-        "defense": 64
+        "offense": 71,
+        "defense": 82
       },
-      "salary": 23341021,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 177,
       "name": "Aaron Gordon",
-      "position": "PG",
-      "team_id": 8,
+      "position": "PF",
+      "team_id": null,
       "overall": 80,
       "stats": {
-        "offense": 71,
-        "defense": 89
+        "offense": 79,
+        "defense": 82
       },
-      "salary": 17014301,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 178,
       "name": "Eric Gordon",
-      "position": "PF",
-      "team_id": 23,
-      "overall": 71,
+      "position": "PG",
+      "team_id": null,
+      "overall": 79,
       "stats": {
         "offense": 72,
-        "defense": 70
+        "defense": 87
       },
-      "salary": 20296471,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
@@ -2708,167 +2768,167 @@
       "id": 179,
       "name": "Marcin Gortat",
       "position": "C",
-      "team_id": 30,
-      "overall": 74,
+      "team_id": null,
+      "overall": 72,
       "stats": {
-        "offense": 80,
-        "defense": 69
+        "offense": 74,
+        "defense": 71
       },
-      "salary": 35483062,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 180,
       "name": "Devonte' Graham",
-      "position": "SF",
-      "team_id": 25,
-      "overall": 71,
+      "position": "PG",
+      "team_id": null,
+      "overall": 83,
       "stats": {
-        "offense": 88,
-        "defense": 54
+        "offense": 87,
+        "defense": 80
       },
-      "salary": 19449198,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 181,
       "name": "Treveon Graham",
-      "position": "C",
-      "team_id": 4,
-      "overall": 53,
+      "position": "PF",
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 52,
-        "defense": 54
+        "offense": 78,
+        "defense": 70
       },
-      "salary": 3009457,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 182,
       "name": "Jerami Grant",
-      "position": "C",
-      "team_id": 25,
-      "overall": 59,
+      "position": "SF",
+      "team_id": null,
+      "overall": 82,
       "stats": {
-        "offense": 63,
-        "defense": 55
+        "offense": 86,
+        "defense": 78
       },
-      "salary": 14391865,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 183,
       "name": "Jerian Grant",
-      "position": "PG",
-      "team_id": 5,
+      "position": "SG",
+      "team_id": null,
       "overall": 70,
       "stats": {
-        "offense": 61,
-        "defense": 80
+        "offense": 71,
+        "defense": 70
       },
-      "salary": 31701180,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 184,
       "name": "Danny Green",
-      "position": "PF",
-      "team_id": 23,
-      "overall": 57,
+      "position": "SG",
+      "team_id": null,
+      "overall": 73,
       "stats": {
-        "offense": 62,
-        "defense": 52
+        "offense": 67,
+        "defense": 80
       },
-      "salary": 32719929,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 185,
       "name": "Draymond Green",
-      "position": "SG",
-      "team_id": 10,
-      "overall": 73,
+      "position": "SF",
+      "team_id": null,
+      "overall": 80,
       "stats": {
-        "offense": 84,
-        "defense": 63
+        "offense": 85,
+        "defense": 76
       },
-      "salary": 18240439,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 186,
       "name": "Gerald Green",
-      "position": "SG",
-      "team_id": 2,
-      "overall": 68,
+      "position": "PG",
+      "team_id": null,
+      "overall": 76,
       "stats": {
-        "offense": 78,
-        "defense": 58
+        "offense": 66,
+        "defense": 87
       },
-      "salary": 31237077,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 187,
       "name": "JaMychal Green",
-      "position": "PF",
-      "team_id": 10,
-      "overall": 74,
+      "position": "SF",
+      "team_id": null,
+      "overall": 75,
       "stats": {
-        "offense": 87,
-        "defense": 61
+        "offense": 84,
+        "defense": 67
       },
-      "salary": 18836129,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 188,
       "name": "Jeff Green",
-      "position": "PF",
-      "team_id": 11,
+      "position": "SF",
+      "team_id": null,
       "overall": 74,
       "stats": {
-        "offense": 63,
-        "defense": 86
+        "offense": 60,
+        "defense": 89
       },
-      "salary": 18744522,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 189,
       "name": "Blake Griffin",
-      "position": "PG",
-      "team_id": 2,
-      "overall": 88,
+      "position": "PF",
+      "team_id": null,
+      "overall": 67,
       "stats": {
-        "offense": 88,
-        "defense": 89
+        "offense": 67,
+        "defense": 68
       },
-      "salary": 15003250,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 190,
       "name": "Daniel Hamilton",
-      "position": "PF",
-      "team_id": 1,
+      "position": "SG",
+      "team_id": null,
       "overall": 70,
       "stats": {
-        "offense": 76,
-        "defense": 64
+        "offense": 71,
+        "defense": 69
       },
-      "salary": 12142669,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -2876,111 +2936,111 @@
       "id": 191,
       "name": "Tim Hardaway Jr.",
       "position": "SG",
-      "team_id": 8,
-      "overall": 70,
+      "team_id": null,
+      "overall": 78,
       "stats": {
-        "offense": 60,
-        "defense": 81
+        "offense": 79,
+        "defense": 77
       },
-      "salary": 3867204,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 192,
       "name": "James Harden",
-      "position": "SF",
-      "team_id": 6,
-      "overall": 77,
+      "position": "SG",
+      "team_id": null,
+      "overall": 76,
       "stats": {
-        "offense": 75,
-        "defense": 79
+        "offense": 82,
+        "defense": 71
       },
-      "salary": 6986557,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 193,
       "name": "Maurice Harkless",
-      "position": "SG",
-      "team_id": 26,
-      "overall": 82,
+      "position": "SF",
+      "team_id": null,
+      "overall": 81,
       "stats": {
-        "offense": 77,
-        "defense": 87
+        "offense": 89,
+        "defense": 73
       },
-      "salary": 2378800,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 194,
       "name": "Montrezl Harrell",
-      "position": "SF",
-      "team_id": 23,
-      "overall": 59,
+      "position": "PF",
+      "team_id": null,
+      "overall": 79,
       "stats": {
-        "offense": 56,
-        "defense": 62
+        "offense": 71,
+        "defense": 88
       },
-      "salary": 34954183,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 195,
       "name": "Devin Harris",
-      "position": "PF",
-      "team_id": 7,
-      "overall": 72,
+      "position": "SG",
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 79,
-        "defense": 65
+        "offense": 69,
+        "defense": 85
       },
-      "salary": 14818003,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 196,
       "name": "Gary Harris",
-      "position": "SF",
-      "team_id": 17,
-      "overall": 76,
+      "position": "PG",
+      "team_id": null,
+      "overall": 79,
       "stats": {
-        "offense": 87,
-        "defense": 66
+        "offense": 76,
+        "defense": 82
       },
-      "salary": 11384737,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 197,
       "name": "Joe Harris",
-      "position": "PF",
-      "team_id": 9,
-      "overall": 66,
+      "position": "PG",
+      "team_id": null,
+      "overall": 77,
       "stats": {
-        "offense": 79,
-        "defense": 53
+        "offense": 74,
+        "defense": 81
       },
-      "salary": 26514794,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 198,
       "name": "Andrew Harrison",
-      "position": "SF",
-      "team_id": 15,
-      "overall": 73,
+      "position": "PG",
+      "team_id": null,
+      "overall": 74,
       "stats": {
-        "offense": 89,
-        "defense": 57
+        "offense": 66,
+        "defense": 82
       },
-      "salary": 20791093,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
@@ -2988,89 +3048,243 @@
       "id": 199,
       "name": "Shaquille Harrison",
       "position": "PG",
-      "team_id": 15,
-      "overall": 65,
+      "team_id": null,
+      "overall": 84,
       "stats": {
-        "offense": 74,
-        "defense": 57
+        "offense": 83,
+        "defense": 85
       },
-      "salary": 4184686,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
       "id": 200,
       "name": "Tobias Harris",
-      "position": "SG",
-      "team_id": 9,
-      "overall": 74,
+      "position": "PF",
+      "team_id": null,
+      "overall": 71,
       "stats": {
-        "offense": 80,
-        "defense": 69
+        "offense": 68,
+        "defense": 75
       },
-      "salary": 13520398,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100001,
-      "name": "Rookie Prospect 1",
-      "position": "PG",
+      "id": 201,
+      "name": "Isaiah Hartenstein",
+      "position": "SF",
       "team_id": null,
       "overall": 74,
+      "stats": {
+        "offense": 82,
+        "defense": 66
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 202,
+      "name": "Josh Hart",
+      "position": "SG",
+      "team_id": null,
+      "overall": 76,
       "stats": {
         "offense": 71,
-        "defense": 77
+        "defense": 82
       },
-      "salary": 3000000,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100002,
-      "name": "Rookie Prospect 2",
-      "position": "C",
-      "team_id": null,
-      "overall": 72,
-      "stats": {
-        "offense": 66,
-        "defense": 78
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100003,
-      "name": "Rookie Prospect 3",
-      "position": "C",
-      "team_id": null,
-      "overall": 69,
-      "stats": {
-        "offense": 70,
-        "defense": 68
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100004,
-      "name": "Rookie Prospect 4",
+      "id": 203,
+      "name": "Udonis Haslem",
       "position": "PF",
+      "team_id": null,
+      "overall": 67,
+      "stats": {
+        "offense": 68,
+        "defense": 66
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 204,
+      "name": "Gordon Hayward",
+      "position": "PF",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 89,
+        "defense": 72
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 205,
+      "name": "John Henson",
+      "position": "SF",
+      "team_id": null,
+      "overall": 82,
+      "stats": {
+        "offense": 76,
+        "defense": 88
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 206,
+      "name": "Juancho Hernangomez",
+      "position": "PF",
+      "team_id": null,
+      "overall": 84,
+      "stats": {
+        "offense": 84,
+        "defense": 84
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 207,
+      "name": "Willy Hernangomez",
+      "position": "C",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 61,
+        "defense": 89
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 208,
+      "name": "Mario Hezonja",
+      "position": "PF",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 72,
+        "defense": 83
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 209,
+      "name": "Isaiah Hicks",
+      "position": "PF",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 86,
+        "defense": 75
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 210,
+      "name": "Buddy Hield",
+      "position": "SG",
+      "team_id": null,
+      "overall": 87,
+      "stats": {
+        "offense": 88,
+        "defense": 87
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 211,
+      "name": "George Hill",
+      "position": "SG",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 68,
+        "defense": 82
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 212,
+      "name": "Solomon Hill",
+      "position": "SF",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 75,
+        "defense": 74
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 213,
+      "name": "Aaron Holiday",
+      "position": "SG",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 67,
+        "defense": 73
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 214,
+      "name": "Jrue Holiday",
+      "position": "SG",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 73,
+        "defense": 75
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 215,
+      "name": "Justin Holiday",
+      "position": "SG",
       "team_id": null,
       "overall": 73,
       "stats": {
-        "offense": 68,
-        "defense": 79
+        "offense": 79,
+        "defense": 67
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100005,
-      "name": "Rookie Prospect 5",
+      "id": 216,
+      "name": "Rondae Hollis-Jefferson",
       "position": "PF",
       "team_id": null,
       "overall": 77,
@@ -3078,615 +3292,2533 @@
         "offense": 78,
         "defense": 77
       },
-      "salary": 3000000,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100006,
-      "name": "Rookie Prospect 6",
+      "id": 217,
+      "name": "Richaun Holmes",
       "position": "PF",
       "team_id": null,
-      "overall": 65,
+      "overall": 73,
       "stats": {
-        "offense": 71,
-        "defense": 60
+        "offense": 80,
+        "defense": 67
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100007,
-      "name": "Rookie Prospect 7",
+      "id": 218,
+      "name": "Rodney Hood",
       "position": "SG",
       "team_id": null,
-      "overall": 62,
+      "overall": 76,
       "stats": {
-        "offense": 65,
-        "defense": 60
+        "offense": 66,
+        "defense": 86
       },
-      "salary": 3000000,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100008,
-      "name": "Rookie Prospect 8",
+      "id": 219,
+      "name": "Al Horford",
+      "position": "SF",
+      "team_id": null,
+      "overall": 83,
+      "stats": {
+        "offense": 82,
+        "defense": 84
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 220,
+      "name": "Dwight Howard",
+      "position": "C",
+      "team_id": null,
+      "overall": 83,
+      "stats": {
+        "offense": 87,
+        "defense": 80
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 221,
+      "name": "Kevin Huerter",
       "position": "PG",
       "team_id": null,
-      "overall": 61,
+      "overall": 71,
       "stats": {
-        "offense": 63,
-        "defense": 60
+        "offense": 81,
+        "defense": 61
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100009,
-      "name": "Rookie Prospect 9",
-      "position": "SF",
+      "id": 222,
+      "name": "Chandler Hutchison",
+      "position": "PF",
       "team_id": null,
-      "overall": 74,
+      "overall": 69,
       "stats": {
         "offense": 70,
-        "defense": 79
+        "defense": 69
       },
-      "salary": 3000000,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100010,
-      "name": "Rookie Prospect 10",
+      "id": 223,
+      "name": "Serge Ibaka",
       "position": "SF",
+      "team_id": null,
+      "overall": 67,
+      "stats": {
+        "offense": 63,
+        "defense": 71
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 224,
+      "name": "Andre Iguodala",
+      "position": "SG",
+      "team_id": null,
+      "overall": 83,
+      "stats": {
+        "offense": 89,
+        "defense": 78
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 225,
+      "name": "Ersan Ilyasova",
+      "position": "SF",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 83,
+        "defense": 74
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 226,
+      "name": "Joe Ingles",
+      "position": "PF",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 79,
+        "defense": 81
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 227,
+      "name": "Brandon Ingram",
+      "position": "PF",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 69,
+        "defense": 73
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 228,
+      "name": "Kyrie Irving",
+      "position": "PG",
+      "team_id": null,
+      "overall": 66,
+      "stats": {
+        "offense": 63,
+        "defense": 70
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 229,
+      "name": "Jonathan Isaac",
+      "position": "SF",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 78,
+        "defense": 68
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 230,
+      "name": "Wes Iwundu",
+      "position": "SF",
+      "team_id": null,
+      "overall": 69,
+      "stats": {
+        "offense": 78,
+        "defense": 60
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 231,
+      "name": "Jaren Jackson Jr.",
+      "position": "PF",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 88,
+        "defense": 72
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 232,
+      "name": "Demetrius Jackson",
+      "position": "PG",
+      "team_id": null,
+      "overall": 87,
+      "stats": {
+        "offense": 87,
+        "defense": 87
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 233,
+      "name": "Frank Jackson",
+      "position": "SG",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 70,
+        "defense": 74
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 234,
+      "name": "Josh Jackson",
+      "position": "PF",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 71,
+        "defense": 73
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 235,
+      "name": "Justin Jackson",
+      "position": "PF",
+      "team_id": null,
+      "overall": 82,
+      "stats": {
+        "offense": 80,
+        "defense": 85
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 236,
+      "name": "Reggie Jackson",
+      "position": "SG",
       "team_id": null,
       "overall": 68,
       "stats": {
         "offense": 67,
         "defense": 70
       },
-      "salary": 3000000,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100011,
-      "name": "Rookie Prospect 11",
+      "id": 237,
+      "name": "LeBron James",
+      "position": "SF",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 62,
+        "defense": 78
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 238,
+      "name": "Amile Jefferson",
+      "position": "PF",
+      "team_id": null,
+      "overall": 84,
+      "stats": {
+        "offense": 84,
+        "defense": 85
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 239,
+      "name": "Jonas Jerebko",
+      "position": "PF",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 67,
+        "defense": 88
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 240,
+      "name": "Alize Johnson",
+      "position": "PF",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 76,
+        "defense": 66
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 241,
+      "name": "Amir Johnson",
+      "position": "SF",
+      "team_id": null,
+      "overall": 68,
+      "stats": {
+        "offense": 74,
+        "defense": 63
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 242,
+      "name": "James Johnson",
+      "position": "PF",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 80,
+        "defense": 71
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 243,
+      "name": "Stanley Johnson",
+      "position": "PF",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 75,
+        "defense": 70
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 244,
+      "name": "Tyler Johnson",
+      "position": "SG",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 78,
+        "defense": 70
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 245,
+      "name": "Wesley Johnson",
+      "position": "PG",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 85,
+        "defense": 71
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 246,
+      "name": "Nikola Jokic",
+      "position": "C",
+      "team_id": null,
+      "overall": 69,
+      "stats": {
+        "offense": 65,
+        "defense": 73
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 247,
+      "name": "Derrick Jones Jr.",
+      "position": "PG",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 72,
+        "defense": 72
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 248,
+      "name": "Damian Jones",
+      "position": "C",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 69,
+        "defense": 84
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 249,
+      "name": "Tyus Jones",
+      "position": "PG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 72,
+        "defense": 88
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 250,
+      "name": "DeAndre Jordan",
+      "position": "C",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 88,
+        "defense": 65
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 251,
+      "name": "Cory Joseph",
+      "position": "SG",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 76,
+        "defense": 75
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 252,
+      "name": "Frank Kaminsky",
+      "position": "PF",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 80,
+        "defense": 65
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 253,
+      "name": "Enes Kanter",
+      "position": "C",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 72,
+        "defense": 85
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 254,
+      "name": "Luke Kennard",
+      "position": "SG",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 65,
+        "defense": 86
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 255,
+      "name": "Michael Kidd-Gilchrist",
+      "position": "SF",
+      "team_id": null,
+      "overall": 67,
+      "stats": {
+        "offense": 74,
+        "defense": 60
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 256,
+      "name": "George King",
+      "position": "SF",
+      "team_id": null,
+      "overall": 88,
+      "stats": {
+        "offense": 87,
+        "defense": 89
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 257,
+      "name": "Maxi Kleber",
+      "position": "PF",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 86,
+        "defense": 71
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 258,
+      "name": "Brandon Knight",
+      "position": "PG",
+      "team_id": null,
+      "overall": 88,
+      "stats": {
+        "offense": 88,
+        "defense": 89
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 259,
+      "name": "Kevin Knox",
+      "position": "PF",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 89,
+        "defense": 61
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 260,
+      "name": "Furkan Korkmaz",
+      "position": "SG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 83,
+        "defense": 78
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 261,
+      "name": "Luke Kornet",
+      "position": "PF",
+      "team_id": null,
+      "overall": 64,
+      "stats": {
+        "offense": 68,
+        "defense": 60
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 262,
+      "name": "Kyle Korver",
+      "position": "SG",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 71,
+        "defense": 70
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 263,
+      "name": "Kosta Koufos",
+      "position": "C",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 74,
+        "defense": 79
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 264,
+      "name": "Rodions Kurucs",
+      "position": "PF",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 73,
+        "defense": 77
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 265,
+      "name": "Kyle Kuzma",
+      "position": "SF",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 67,
+        "defense": 87
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 266,
+      "name": "Skal Labissiere",
+      "position": "PF",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 73,
+        "defense": 88
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 267,
+      "name": "Jeremy Lamb",
+      "position": "PG",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 76,
+        "defense": 65
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 268,
+      "name": "Zach LaVine",
+      "position": "PG",
+      "team_id": null,
+      "overall": 67,
+      "stats": {
+        "offense": 69,
+        "defense": 65
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 269,
+      "name": "Jake Layman",
+      "position": "PF",
+      "team_id": null,
+      "overall": 83,
+      "stats": {
+        "offense": 89,
+        "defense": 77
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 270,
+      "name": "TJ Leaf",
+      "position": "SF",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 68,
+        "defense": 85
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 271,
+      "name": "Courtney Lee",
+      "position": "PG",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 66,
+        "defense": 80
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 272,
+      "name": "Damion Lee",
+      "position": "SG",
+      "team_id": null,
+      "overall": 67,
+      "stats": {
+        "offense": 65,
+        "defense": 69
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 273,
+      "name": "Alex Len",
+      "position": "C",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 72,
+        "defense": 73
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 274,
+      "name": "Kawhi Leonard",
+      "position": "SF",
+      "team_id": null,
+      "overall": 69,
+      "stats": {
+        "offense": 71,
+        "defense": 67
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 275,
+      "name": "Meyers Leonard",
+      "position": "SF",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 74,
+        "defense": 86
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 276,
+      "name": "Jon Leuer",
+      "position": "SF",
+      "team_id": null,
+      "overall": 67,
+      "stats": {
+        "offense": 69,
+        "defense": 65
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 277,
+      "name": "Caris LeVert",
+      "position": "SG",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 82,
+        "defense": 65
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 278,
+      "name": "Damian Lillard",
       "position": "SG",
       "team_id": null,
       "overall": 72,
       "stats": {
-        "offense": 77,
+        "offense": 78,
         "defense": 67
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100012,
-      "name": "Rookie Prospect 12",
+      "id": 279,
+      "name": "Jeremy Lin",
+      "position": "PG",
+      "team_id": null,
+      "overall": 83,
+      "stats": {
+        "offense": 82,
+        "defense": 85
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 280,
+      "name": "Shaun Livingston",
+      "position": "PG",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 87,
+        "defense": 66
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 281,
+      "name": "Zach Lofton",
       "position": "SG",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 78,
+        "defense": 76
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 282,
+      "name": "Kevon Looney",
+      "position": "SF",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 62,
+        "defense": 82
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 283,
+      "name": "Brook Lopez",
+      "position": "C",
+      "team_id": null,
+      "overall": 68,
+      "stats": {
+        "offense": 70,
+        "defense": 67
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 284,
+      "name": "Robin Lopez",
+      "position": "C",
+      "team_id": null,
+      "overall": 85,
+      "stats": {
+        "offense": 81,
+        "defense": 89
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 285,
+      "name": "Kevin Love",
+      "position": "PF",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 79,
+        "defense": 82
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 286,
+      "name": "Kyle Lowry",
+      "position": "SG",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 79,
+        "defense": 65
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 287,
+      "name": "Jordan Loyd",
+      "position": "PG",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 61,
+        "defense": 85
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 288,
+      "name": "Timothe Luwawu-Cabarrot",
+      "position": "SG",
+      "team_id": null,
+      "overall": 61,
+      "stats": {
+        "offense": 60,
+        "defense": 62
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 289,
+      "name": "Tyler Lydon",
+      "position": "PF",
+      "team_id": null,
+      "overall": 84,
+      "stats": {
+        "offense": 84,
+        "defense": 84
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 290,
+      "name": "Trey Lyles",
+      "position": "SF",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 70,
+        "defense": 82
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 291,
+      "name": "Shelvin Mack",
+      "position": "PG",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 69,
+        "defense": 74
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 292,
+      "name": "Daryl Macon",
+      "position": "SG",
+      "team_id": null,
+      "overall": 82,
+      "stats": {
+        "offense": 85,
+        "defense": 80
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 293,
+      "name": "J.P. Macura",
+      "position": "PG",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 63,
+        "defense": 81
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 294,
+      "name": "Ian Mahinmi",
+      "position": "C",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 84,
+        "defense": 76
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 295,
+      "name": "Thon Maker",
+      "position": "PF",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 61,
+        "defense": 83
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 296,
+      "name": "Boban Marjanovic",
+      "position": "C",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 76,
+        "defense": 85
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 297,
+      "name": "Lauri Markkanen",
+      "position": "PF",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 69,
+        "defense": 78
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 298,
+      "name": "Jarell Martin",
+      "position": "SF",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 66,
+        "defense": 84
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 299,
+      "name": "Frank Mason",
+      "position": "PG",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 64,
+        "defense": 82
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 300,
+      "name": "Yante Maten",
+      "position": "SF",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 75,
+        "defense": 65
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 301,
+      "name": "Wesley Matthews",
+      "position": "PG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 83,
+        "defense": 78
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 302,
+      "name": "Luc Mbah a Moute",
+      "position": "PF",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 82,
+        "defense": 76
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 303,
+      "name": "CJ McCollum",
+      "position": "PG",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 70,
+        "defense": 86
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 304,
+      "name": "T.J. McConnell",
+      "position": "PG",
+      "team_id": null,
+      "overall": 69,
+      "stats": {
+        "offense": 68,
+        "defense": 71
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 305,
+      "name": "Doug McDermott",
+      "position": "SF",
+      "team_id": null,
+      "overall": 87,
+      "stats": {
+        "offense": 85,
+        "defense": 89
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 306,
+      "name": "JaVale McGee",
+      "position": "C",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 68,
+        "defense": 78
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 307,
+      "name": "Rodney McGruder",
+      "position": "PG",
+      "team_id": null,
+      "overall": 65,
+      "stats": {
+        "offense": 66,
+        "defense": 65
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 308,
+      "name": "Alfonzo McKinnie",
+      "position": "PF",
+      "team_id": null,
+      "overall": 63,
+      "stats": {
+        "offense": 63,
+        "defense": 63
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 309,
+      "name": "Ben McLemore",
+      "position": "PG",
+      "team_id": null,
+      "overall": 84,
+      "stats": {
+        "offense": 85,
+        "defense": 83
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 310,
+      "name": "Jordan McRae",
+      "position": "PG",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 75,
+        "defense": 73
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 311,
+      "name": "Jodie Meeks",
+      "position": "SG",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 74,
+        "defense": 77
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 312,
+      "name": "Salah Mejri",
+      "position": "C",
+      "team_id": null,
+      "overall": 68,
+      "stats": {
+        "offense": 60,
+        "defense": 77
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 313,
+      "name": "De'Anthony Melton",
+      "position": "SG",
+      "team_id": null,
+      "overall": 86,
+      "stats": {
+        "offense": 86,
+        "defense": 86
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 314,
+      "name": "Chimezie Metu",
+      "position": "PF",
+      "team_id": null,
+      "overall": 81,
+      "stats": {
+        "offense": 84,
+        "defense": 79
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 315,
+      "name": "Khris Middleton",
+      "position": "PF",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 86,
+        "defense": 62
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 316,
+      "name": "CJ Miles",
+      "position": "SG",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 75,
+        "defense": 84
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 317,
+      "name": "Darius Miller",
+      "position": "SF",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 88,
+        "defense": 69
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 318,
+      "name": "Paul Millsap",
+      "position": "SF",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 60,
+        "defense": 87
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 319,
+      "name": "Patty Mills",
+      "position": "PG",
       "team_id": null,
       "overall": 68,
       "stats": {
         "offense": 71,
         "defense": 65
       },
-      "salary": 3000000,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100013,
-      "name": "Rookie Prospect 13",
-      "position": "PG",
-      "team_id": null,
-      "overall": 69,
-      "stats": {
-        "offense": 66,
-        "defense": 72
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100014,
-      "name": "Rookie Prospect 14",
-      "position": "PG",
-      "team_id": null,
-      "overall": 68,
-      "stats": {
-        "offense": 65,
-        "defense": 72
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100015,
-      "name": "Rookie Prospect 15",
-      "position": "PF",
+      "id": 320,
+      "name": "Shake Milton",
+      "position": "SG",
       "team_id": null,
       "overall": 71,
       "stats": {
-        "offense": 73,
-        "defense": 70
+        "offense": 74,
+        "defense": 69
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100016,
-      "name": "Rookie Prospect 16",
+      "id": 321,
+      "name": "Nikola Mirotic",
+      "position": "SF",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 79,
+        "defense": 67
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 322,
+      "name": "Donovan Mitchell",
       "position": "SG",
       "team_id": null,
-      "overall": 67,
+      "overall": 76,
       "stats": {
-        "offense": 60,
+        "offense": 76,
+        "defense": 76
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 323,
+      "name": "Naz Mitrou-Long",
+      "position": "SG",
+      "team_id": null,
+      "overall": 81,
+      "stats": {
+        "offense": 81,
+        "defense": 82
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 324,
+      "name": "Malik Monk",
+      "position": "SG",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 67,
         "defense": 75
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100017,
-      "name": "Rookie Prospect 17",
-      "position": "PF",
+      "id": 325,
+      "name": "Greg Monroe",
+      "position": "C",
       "team_id": null,
-      "overall": 65,
+      "overall": 76,
       "stats": {
-        "offense": 60,
-        "defense": 70
+        "offense": 73,
+        "defense": 80
       },
-      "salary": 3000000,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100018,
-      "name": "Rookie Prospect 18",
+      "id": 326,
+      "name": "E'Twaun Moore",
+      "position": "SG",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 71,
+        "defense": 74
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 327,
+      "name": "Jaylen Morris",
       "position": "PG",
       "team_id": null,
       "overall": 71,
       "stats": {
         "offense": 70,
-        "defense": 73
+        "defense": 72
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100019,
-      "name": "Rookie Prospect 19",
+      "id": 328,
+      "name": "Marcus Morris",
       "position": "PF",
       "team_id": null,
-      "overall": 73,
+      "overall": 79,
       "stats": {
-        "offense": 76,
-        "defense": 71
+        "offense": 83,
+        "defense": 75
       },
-      "salary": 3000000,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100020,
-      "name": "Rookie Prospect 20",
-      "position": "PG",
-      "team_id": null,
-      "overall": 61,
-      "stats": {
-        "offense": 60,
-        "defense": 63
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100021,
-      "name": "Rookie Prospect 21",
-      "position": "PF",
-      "team_id": null,
-      "overall": 67,
-      "stats": {
-        "offense": 68,
-        "defense": 67
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100022,
-      "name": "Rookie Prospect 22",
+      "id": 329,
+      "name": "Markieff Morris",
       "position": "SF",
       "team_id": null,
-      "overall": 69,
+      "overall": 78,
       "stats": {
-        "offense": 60,
-        "defense": 79
+        "offense": 87,
+        "defense": 70
       },
-      "salary": 3000000,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100023,
-      "name": "Rookie Prospect 23",
-      "position": "SF",
+      "id": 330,
+      "name": "Monte Morris",
+      "position": "SG",
       "team_id": null,
       "overall": 68,
       "stats": {
-        "offense": 72,
-        "defense": 65
+        "offense": 68,
+        "defense": 69
       },
-      "salary": 3000000,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100024,
-      "name": "Rookie Prospect 24",
-      "position": "C",
+      "id": 331,
+      "name": "Johnathan Motley",
+      "position": "SF",
       "team_id": null,
       "overall": 71,
       "stats": {
-        "offense": 75,
-        "defense": 68
+        "offense": 66,
+        "defense": 76
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100025,
-      "name": "Rookie Prospect 25",
+      "id": 332,
+      "name": "Timofey Mozgov",
       "position": "C",
       "team_id": null,
-      "overall": 68,
+      "overall": 80,
       "stats": {
-        "offense": 62,
+        "offense": 86,
         "defense": 75
       },
-      "salary": 3000000,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100026,
-      "name": "Rookie Prospect 26",
-      "position": "C",
+      "id": 333,
+      "name": "Emmanuel Mudiay",
+      "position": "PG",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 70,
+        "defense": 89
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 334,
+      "name": "Dejounte Murray",
+      "position": "SG",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 74,
+        "defense": 69
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 335,
+      "name": "Jamal Murray",
+      "position": "SG",
+      "team_id": null,
+      "overall": 61,
+      "stats": {
+        "offense": 62,
+        "defense": 61
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 336,
+      "name": "Dzanan Musa",
+      "position": "PG",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 63,
+        "defense": 80
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 337,
+      "name": "Mike Muscala",
+      "position": "SF",
       "team_id": null,
       "overall": 73,
       "stats": {
-        "offense": 71,
-        "defense": 75
+        "offense": 62,
+        "defense": 84
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100027,
-      "name": "Rookie Prospect 27",
+      "id": 338,
+      "name": "Svi Mykhailiuk",
       "position": "PG",
       "team_id": null,
-      "overall": 65,
+      "overall": 74,
       "stats": {
-        "offense": 69,
-        "defense": 61
+        "offense": 65,
+        "defense": 83
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100028,
-      "name": "Rookie Prospect 28",
-      "position": "PG",
+      "id": 339,
+      "name": "Abdel Nader",
+      "position": "PF",
       "team_id": null,
       "overall": 72,
       "stats": {
-        "offense": 66,
-        "defense": 79
+        "offense": 83,
+        "defense": 62
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100029,
-      "name": "Rookie Prospect 29",
+      "id": 340,
+      "name": "Larry Nance Jr.",
+      "position": "SF",
+      "team_id": null,
+      "overall": 84,
+      "stats": {
+        "offense": 89,
+        "defense": 80
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 341,
+      "name": "Shabazz Napier",
+      "position": "SG",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 84,
+        "defense": 74
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 342,
+      "name": "Nene",
+      "position": "SF",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 73,
+        "defense": 71
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 343,
+      "name": "Raul Neto",
+      "position": "PG",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 70,
+        "defense": 81
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 344,
+      "name": "Georges Niang",
+      "position": "SF",
+      "team_id": null,
+      "overall": 83,
+      "stats": {
+        "offense": 89,
+        "defense": 77
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 345,
+      "name": "Nerlens Noel",
+      "position": "SF",
+      "team_id": null,
+      "overall": 64,
+      "stats": {
+        "offense": 64,
+        "defense": 65
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 346,
+      "name": "Dirk Nowitzki",
       "position": "PF",
       "team_id": null,
       "overall": 74,
       "stats": {
-        "offense": 74,
-        "defense": 74
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100030,
-      "name": "Rookie Prospect 30",
-      "position": "C",
-      "team_id": null,
-      "overall": 66,
-      "stats": {
-        "offense": 71,
-        "defense": 61
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100031,
-      "name": "Rookie Prospect 31",
-      "position": "PG",
-      "team_id": null,
-      "overall": 62,
-      "stats": {
-        "offense": 62,
-        "defense": 63
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100032,
-      "name": "Rookie Prospect 32",
-      "position": "SF",
-      "team_id": null,
-      "overall": 71,
-      "stats": {
         "offense": 68,
-        "defense": 74
+        "defense": 81
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100033,
-      "name": "Rookie Prospect 33",
+      "id": 347,
+      "name": "Frank Ntilikina",
       "position": "PG",
       "team_id": null,
-      "overall": 69,
+      "overall": 76,
       "stats": {
-        "offense": 69,
-        "defense": 70
+        "offense": 77,
+        "defense": 76
       },
-      "salary": 3000000,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100034,
-      "name": "Rookie Prospect 34",
-      "position": "C",
-      "team_id": null,
-      "overall": 65,
-      "stats": {
-        "offense": 63,
-        "defense": 68
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100035,
-      "name": "Rookie Prospect 35",
+      "id": 348,
+      "name": "James Nunnally",
       "position": "SF",
       "team_id": null,
       "overall": 68,
       "stats": {
-        "offense": 74,
-        "defense": 63
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100036,
-      "name": "Rookie Prospect 36",
-      "position": "C",
-      "team_id": null,
-      "overall": 62,
-      "stats": {
-        "offense": 62,
-        "defense": 63
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100037,
-      "name": "Rookie Prospect 37",
-      "position": "C",
-      "team_id": null,
-      "overall": 70,
-      "stats": {
-        "offense": 78,
-        "defense": 62
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100038,
-      "name": "Rookie Prospect 38",
-      "position": "SF",
-      "team_id": null,
-      "overall": 69,
-      "stats": {
-        "offense": 69,
-        "defense": 70
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100039,
-      "name": "Rookie Prospect 39",
-      "position": "SF",
-      "team_id": null,
-      "overall": 66,
-      "stats": {
-        "offense": 66,
-        "defense": 67
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100040,
-      "name": "Rookie Prospect 40",
-      "position": "PG",
-      "team_id": null,
-      "overall": 73,
-      "stats": {
-        "offense": 69,
-        "defense": 77
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100041,
-      "name": "Rookie Prospect 41",
-      "position": "C",
-      "team_id": null,
-      "overall": 72,
-      "stats": {
-        "offense": 75,
-        "defense": 69
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100042,
-      "name": "Rookie Prospect 42",
-      "position": "SG",
-      "team_id": null,
-      "overall": 69,
-      "stats": {
-        "offense": 63,
-        "defense": 75
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100043,
-      "name": "Rookie Prospect 43",
-      "position": "SG",
-      "team_id": null,
-      "overall": 69,
-      "stats": {
         "offense": 64,
-        "defense": 75
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100044,
-      "name": "Rookie Prospect 44",
-      "position": "PG",
-      "team_id": null,
-      "overall": 69,
-      "stats": {
-        "offense": 72,
-        "defense": 67
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100045,
-      "name": "Rookie Prospect 45",
-      "position": "C",
-      "team_id": null,
-      "overall": 70,
-      "stats": {
-        "offense": 68,
         "defense": 73
       },
-      "salary": 3000000,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100046,
-      "name": "Rookie Prospect 46",
+      "id": 349,
+      "name": "Jusuf Nurkic",
+      "position": "C",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 73,
+        "defense": 69
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 350,
+      "name": "David Nwaba",
+      "position": "SG",
+      "team_id": null,
+      "overall": 85,
+      "stats": {
+        "offense": 87,
+        "defense": 84
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 351,
+      "name": "Royce O'Neale",
+      "position": "SF",
+      "team_id": null,
+      "overall": 63,
+      "stats": {
+        "offense": 63,
+        "defense": 64
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 352,
+      "name": "Kyle O'Quinn",
+      "position": "C",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 75,
+        "defense": 84
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 353,
+      "name": "Semi Ojeleye",
       "position": "PF",
       "team_id": null,
-      "overall": 76,
+      "overall": 83,
       "stats": {
-        "offense": 78,
-        "defense": 74
+        "offense": 87,
+        "defense": 79
       },
-      "salary": 3000000,
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100047,
-      "name": "Rookie Prospect 47",
+      "id": 354,
+      "name": "Jahlil Okafor",
       "position": "C",
+      "team_id": null,
+      "overall": 69,
+      "stats": {
+        "offense": 60,
+        "defense": 79
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 355,
+      "name": "Elie Okobo",
+      "position": "PG",
       "team_id": null,
       "overall": 70,
       "stats": {
-        "offense": 66,
-        "defense": 75
+        "offense": 72,
+        "defense": 69
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100048,
-      "name": "Rookie Prospect 48",
+      "id": 356,
+      "name": "Josh Okogie",
+      "position": "PG",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 89,
+        "defense": 65
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 357,
+      "name": "Victor Oladipo",
+      "position": "SG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 75,
+        "defense": 86
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 358,
+      "name": "Kelly Olynyk",
+      "position": "PF",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 60,
+        "defense": 81
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 359,
+      "name": "Cedi Osman",
+      "position": "PF",
+      "team_id": null,
+      "overall": 88,
+      "stats": {
+        "offense": 88,
+        "defense": 89
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 360,
+      "name": "Kelly Oubre Jr.",
+      "position": "PF",
+      "team_id": null,
+      "overall": 68,
+      "stats": {
+        "offense": 66,
+        "defense": 70
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 361,
+      "name": "Zaza Pachulia",
+      "position": "C",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 85,
+        "defense": 64
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 362,
+      "name": "Jabari Parker",
+      "position": "SF",
+      "team_id": null,
+      "overall": 81,
+      "stats": {
+        "offense": 86,
+        "defense": 77
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 363,
+      "name": "Tony Parker",
+      "position": "SG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 76,
+        "defense": 84
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 364,
+      "name": "Chandler Parsons",
+      "position": "PF",
+      "team_id": null,
+      "overall": 64,
+      "stats": {
+        "offense": 62,
+        "defense": 66
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 365,
+      "name": "Patrick Patterson",
+      "position": "PF",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 79,
+        "defense": 77
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 366,
+      "name": "Justin Patton",
+      "position": "C",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 64,
+        "defense": 78
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 367,
+      "name": "Chris Paul",
+      "position": "SG",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 69,
+        "defense": 81
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 368,
+      "name": "Cameron Payne",
+      "position": "SG",
+      "team_id": null,
+      "overall": 67,
+      "stats": {
+        "offense": 60,
+        "defense": 74
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 369,
+      "name": "Elfrid Payton",
+      "position": "PG",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 84,
+        "defense": 67
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 370,
+      "name": "Theo Pinson",
+      "position": "PG",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 82,
+        "defense": 73
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 371,
+      "name": "Mason Plumlee",
       "position": "PF",
       "team_id": null,
       "overall": 77,
       "stats": {
-        "offense": 77,
-        "defense": 77
+        "offense": 68,
+        "defense": 87
       },
-      "salary": 3000000,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100049,
-      "name": "Rookie Prospect 49",
+      "id": 372,
+      "name": "Miles Plumlee",
+      "position": "C",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 64,
+        "defense": 85
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 373,
+      "name": "Jakob Poeltl",
+      "position": "C",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 73,
+        "defense": 86
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 374,
+      "name": "Quincy Pondexter",
+      "position": "PF",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 74,
+        "defense": 81
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 375,
+      "name": "Michael Porter Jr.",
+      "position": "PF",
+      "team_id": null,
+      "overall": 87,
+      "stats": {
+        "offense": 86,
+        "defense": 88
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 376,
+      "name": "Otto Porter Jr.",
+      "position": "SF",
+      "team_id": null,
+      "overall": 69,
+      "stats": {
+        "offense": 77,
+        "defense": 61
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 377,
+      "name": "Bobby Portis",
+      "position": "SF",
+      "team_id": null,
+      "overall": 64,
+      "stats": {
+        "offense": 67,
+        "defense": 61
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 378,
+      "name": "Kristaps Porzingis",
+      "position": "PF",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 85,
+        "defense": 72
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 379,
+      "name": "Dwight Powell",
+      "position": "PF",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 69,
+        "defense": 87
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 380,
+      "name": "Norman Powell",
+      "position": "PG",
+      "team_id": null,
+      "overall": 65,
+      "stats": {
+        "offense": 68,
+        "defense": 63
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 381,
+      "name": "Alex Poythress",
+      "position": "PF",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 84,
+        "defense": 74
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 382,
+      "name": "Billy Preston",
+      "position": "PF",
+      "team_id": null,
+      "overall": 83,
+      "stats": {
+        "offense": 82,
+        "defense": 84
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 383,
+      "name": "Taurean Prince",
+      "position": "PF",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 76,
+        "defense": 76
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 384,
+      "name": "Zhou Qi",
+      "position": "PF",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 79,
+        "defense": 79
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 385,
+      "name": "Ivan Rabb",
+      "position": "SF",
+      "team_id": null,
+      "overall": 86,
+      "stats": {
+        "offense": 86,
+        "defense": 87
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 386,
+      "name": "Chasson Randle",
+      "position": "PG",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 81,
+        "defense": 60
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 387,
+      "name": "Julius Randle",
+      "position": "PF",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 86,
+        "defense": 62
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 388,
+      "name": "Zach Randolph",
+      "position": "PF",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 61,
+        "defense": 89
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 389,
+      "name": "JJ Redick",
+      "position": "PG",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 82,
+        "defense": 67
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 390,
+      "name": "Davon Reed",
+      "position": "PG",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 89,
+        "defense": 66
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 391,
+      "name": "Josh Richardson",
+      "position": "SG",
+      "team_id": null,
+      "overall": 66,
+      "stats": {
+        "offense": 62,
+        "defense": 71
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 392,
+      "name": "Malachi Richardson",
+      "position": "SG",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 83,
+        "defense": 63
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 393,
+      "name": "Austin Rivers",
+      "position": "PG",
+      "team_id": null,
+      "overall": 65,
+      "stats": {
+        "offense": 65,
+        "defense": 66
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 394,
+      "name": "Andre Roberson",
+      "position": "SG",
+      "team_id": null,
+      "overall": 84,
+      "stats": {
+        "offense": 83,
+        "defense": 86
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 395,
+      "name": "Glenn Robinson III",
+      "position": "SG",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 61,
+        "defense": 85
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 396,
+      "name": "Devin Robinson",
+      "position": "SF",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 81,
+        "defense": 70
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 397,
+      "name": "Duncan Robinson",
       "position": "PF",
       "team_id": null,
       "overall": 72,
@@ -3694,69 +5826,251 @@
         "offense": 77,
         "defense": 68
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100050,
-      "name": "Rookie Prospect 50",
-      "position": "SF",
+      "id": 398,
+      "name": "Jerome Robinson",
+      "position": "SG",
       "team_id": null,
-      "overall": 62,
+      "overall": 77,
       "stats": {
-        "offense": 64,
-        "defense": 61
+        "offense": 88,
+        "defense": 67
       },
-      "salary": 3000000,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100051,
-      "name": "Rookie Prospect 51",
+      "id": 399,
+      "name": "Mitchell Robinson",
       "position": "C",
       "team_id": null,
-      "overall": 63,
+      "overall": 72,
       "stats": {
-        "offense": 65,
-        "defense": 62
+        "offense": 71,
+        "defense": 73
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100052,
-      "name": "Rookie Prospect 52",
-      "position": "C",
+      "id": 400,
+      "name": "Rajon Rondo",
+      "position": "PG",
       "team_id": null,
-      "overall": 69,
+      "overall": 73,
       "stats": {
-        "offense": 64,
-        "defense": 75
+        "offense": 74,
+        "defense": 73
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100053,
-      "name": "Rookie Prospect 53",
-      "position": "C",
+      "id": 401,
+      "name": "Derrick Rose",
+      "position": "SG",
+      "team_id": null,
+      "overall": 84,
+      "stats": {
+        "offense": 80,
+        "defense": 88
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 402,
+      "name": "Terrence Ross",
+      "position": "PG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 88,
+        "defense": 73
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 403,
+      "name": "Terry Rozier",
+      "position": "SG",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 68,
+        "defense": 80
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 404,
+      "name": "Ricky Rubio",
+      "position": "PG",
+      "team_id": null,
+      "overall": 87,
+      "stats": {
+        "offense": 89,
+        "defense": 85
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 405,
+      "name": "D'Angelo Russell",
+      "position": "SG",
+      "team_id": null,
+      "overall": 65,
+      "stats": {
+        "offense": 61,
+        "defense": 69
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 406,
+      "name": "Domantas Sabonis",
+      "position": "PF",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 62,
+        "defense": 84
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 407,
+      "name": "Dario Saric",
+      "position": "PF",
       "team_id": null,
       "overall": 66,
       "stats": {
         "offense": 65,
         "defense": 67
       },
-      "salary": 3000000,
+      "salary": 1000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100054,
-      "name": "Rookie Prospect 54",
+      "id": 408,
+      "name": "Tomas Satoransky",
+      "position": "SG",
+      "team_id": null,
+      "overall": 81,
+      "stats": {
+        "offense": 75,
+        "defense": 87
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 409,
+      "name": "Dennis Schroder",
+      "position": "PG",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 60,
+        "defense": 84
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 410,
+      "name": "Mike Scott",
+      "position": "SF",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 73,
+        "defense": 72
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 411,
+      "name": "Thabo Sefolosha",
+      "position": "PF",
+      "team_id": null,
+      "overall": 63,
+      "stats": {
+        "offense": 62,
+        "defense": 64
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 412,
+      "name": "Wayne Selden",
+      "position": "SG",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 85,
+        "defense": 70
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 413,
+      "name": "Collin Sexton",
+      "position": "PG",
+      "team_id": null,
+      "overall": 69,
+      "stats": {
+        "offense": 65,
+        "defense": 73
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 414,
+      "name": "Landry Shamet",
+      "position": "SG",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 67,
+        "defense": 73
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 415,
+      "name": "Iman Shumpert",
       "position": "PG",
       "team_id": null,
       "overall": 78,
@@ -3764,91 +6078,1197 @@
         "offense": 78,
         "defense": 79
       },
-      "salary": 3000000,
+      "salary": 15000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100055,
-      "name": "Rookie Prospect 55",
+      "id": 416,
+      "name": "Pascal Siakam",
       "position": "SF",
-      "team_id": null,
-      "overall": 75,
-      "stats": {
-        "offense": 79,
-        "defense": 72
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100056,
-      "name": "Rookie Prospect 56",
-      "position": "PG",
-      "team_id": null,
-      "overall": 70,
-      "stats": {
-        "offense": 67,
-        "defense": 74
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100057,
-      "name": "Rookie Prospect 57",
-      "position": "PG",
-      "team_id": null,
-      "overall": 71,
-      "stats": {
-        "offense": 76,
-        "defense": 67
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100058,
-      "name": "Rookie Prospect 58",
-      "position": "PF",
-      "team_id": null,
-      "overall": 66,
-      "stats": {
-        "offense": 65,
-        "defense": 67
-      },
-      "salary": 3000000,
-      "injury": null,
-      "morale": 100
-    },
-    {
-      "id": 100059,
-      "name": "Rookie Prospect 59",
-      "position": "PG",
       "team_id": null,
       "overall": 71,
       "stats": {
         "offense": 66,
-        "defense": 76
+        "defense": 77
       },
-      "salary": 3000000,
+      "salary": 8000000,
       "injury": null,
       "morale": 100
     },
     {
-      "id": 100060,
-      "name": "Rookie Prospect 60",
+      "id": 417,
+      "name": "Ben Simmons",
+      "position": "PG",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 78,
+        "defense": 81
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 418,
+      "name": "Jonathon Simmons",
+      "position": "SF",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 81,
+        "defense": 70
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 419,
+      "name": "Anfernee Simons",
       "position": "SG",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 82,
+        "defense": 70
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 420,
+      "name": "Marcus Smart",
+      "position": "SG",
+      "team_id": null,
+      "overall": 86,
+      "stats": {
+        "offense": 87,
+        "defense": 85
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 421,
+      "name": "Dennis Smith Jr.",
+      "position": "PG",
+      "team_id": null,
+      "overall": 67,
+      "stats": {
+        "offense": 65,
+        "defense": 70
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 422,
+      "name": "Ish Smith",
+      "position": "SG",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 85,
+        "defense": 69
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 423,
+      "name": "Jason Smith",
+      "position": "SF",
+      "team_id": null,
+      "overall": 66,
+      "stats": {
+        "offense": 72,
+        "defense": 61
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 424,
+      "name": "JR Smith",
+      "position": "SG",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 74,
+        "defense": 68
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 425,
+      "name": "Zhaire Smith",
+      "position": "PG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 74,
+        "defense": 87
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 426,
+      "name": "Tony Snell",
+      "position": "SG",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 65,
+        "defense": 83
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 427,
+      "name": "Ray Spalding",
+      "position": "PF",
       "team_id": null,
       "overall": 69,
       "stats": {
+        "offense": 71,
+        "defense": 67
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 428,
+      "name": "Omari Spellman",
+      "position": "SF",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 78,
+        "defense": 62
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 429,
+      "name": "Nik Stauskas",
+      "position": "SG",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 70,
+        "defense": 89
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 430,
+      "name": "DJ Stephens",
+      "position": "PG",
+      "team_id": null,
+      "overall": 66,
+      "stats": {
+        "offense": 69,
+        "defense": 63
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 431,
+      "name": "Lance Stephenson",
+      "position": "PG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 88,
+        "defense": 72
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 432,
+      "name": "Edmond Sumner",
+      "position": "PG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 81,
+        "defense": 80
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 433,
+      "name": "Caleb Swanigan",
+      "position": "SF",
+      "team_id": null,
+      "overall": 69,
+      "stats": {
+        "offense": 71,
+        "defense": 67
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 434,
+      "name": "Jayson Tatum",
+      "position": "SF",
+      "team_id": null,
+      "overall": 88,
+      "stats": {
+        "offense": 87,
+        "defense": 89
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 435,
+      "name": "Jeff Teague",
+      "position": "PG",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 62,
+        "defense": 85
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 436,
+      "name": "Garrett Temple",
+      "position": "SG",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 70,
+        "defense": 83
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 437,
+      "name": "Milos Teodosic",
+      "position": "PG",
+      "team_id": null,
+      "overall": 82,
+      "stats": {
+        "offense": 76,
+        "defense": 88
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 438,
+      "name": "Jared Terrell",
+      "position": "SG",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 66,
+        "defense": 87
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 439,
+      "name": "Daniel Theis",
+      "position": "PF",
+      "team_id": null,
+      "overall": 85,
+      "stats": {
+        "offense": 84,
+        "defense": 87
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 440,
+      "name": "Isaiah Thomas",
+      "position": "SG",
+      "team_id": null,
+      "overall": 66,
+      "stats": {
+        "offense": 72,
+        "defense": 60
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 441,
+      "name": "Khyri Thomas",
+      "position": "SG",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 67,
+        "defense": 78
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 442,
+      "name": "Lance Thomas",
+      "position": "SF",
+      "team_id": null,
+      "overall": 88,
+      "stats": {
+        "offense": 88,
+        "defense": 88
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 443,
+      "name": "Klay Thompson",
+      "position": "SG",
+      "team_id": null,
+      "overall": 66,
+      "stats": {
+        "offense": 71,
+        "defense": 61
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 444,
+      "name": "Tristan Thompson",
+      "position": "SF",
+      "team_id": null,
+      "overall": 81,
+      "stats": {
+        "offense": 81,
+        "defense": 82
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 445,
+      "name": "Sindarius Thornwell",
+      "position": "PG",
+      "team_id": null,
+      "overall": 81,
+      "stats": {
+        "offense": 85,
+        "defense": 78
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 446,
+      "name": "Anthony Tolliver",
+      "position": "SF",
+      "team_id": null,
+      "overall": 64,
+      "stats": {
+        "offense": 61,
+        "defense": 67
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 447,
+      "name": "Karl-Anthony Towns",
+      "position": "C",
+      "team_id": null,
+      "overall": 81,
+      "stats": {
+        "offense": 81,
+        "defense": 82
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 448,
+      "name": "Gary Trent Jr.",
+      "position": "PG",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 66,
+        "defense": 84
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 449,
+      "name": "Allonzo Trier",
+      "position": "PG",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 67,
+        "defense": 81
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 450,
+      "name": "PJ Tucker",
+      "position": "SF",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 77,
+        "defense": 79
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 451,
+      "name": "Evan Turner",
+      "position": "PG",
+      "team_id": null,
+      "overall": 62,
+      "stats": {
+        "offense": 61,
+        "defense": 63
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 452,
+      "name": "Myles Turner",
+      "position": "PF",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
         "offense": 74,
+        "defense": 75
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 453,
+      "name": "Ekpe Udoh",
+      "position": "SF",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 68,
+        "defense": 84
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 454,
+      "name": "Tyler Ulis",
+      "position": "SG",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 65,
+        "defense": 78
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 455,
+      "name": "Jonas Valanciunas",
+      "position": "C",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 69,
+        "defense": 86
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 456,
+      "name": "Denzel Valentine",
+      "position": "PG",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 70,
+        "defense": 78
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 457,
+      "name": "Jarred Vanderbilt",
+      "position": "SF",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 74,
+        "defense": 70
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 458,
+      "name": "Fred VanVleet",
+      "position": "SG",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 78,
         "defense": 65
       },
-      "salary": 3000000,
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 459,
+      "name": "Noah Vonleh",
+      "position": "PF",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 73,
+        "defense": 87
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 460,
+      "name": "Nikola Vucevic",
+      "position": "C",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 77,
+        "defense": 65
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 461,
+      "name": "Dwyane Wade",
+      "position": "PG",
+      "team_id": null,
+      "overall": 73,
+      "stats": {
+        "offense": 86,
+        "defense": 61
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 462,
+      "name": "Moritz Wagner",
+      "position": "C",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 81,
+        "defense": 69
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 463,
+      "name": "Dion Waiters",
+      "position": "PG",
+      "team_id": null,
+      "overall": 65,
+      "stats": {
+        "offense": 68,
+        "defense": 62
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 464,
+      "name": "Lonnie Walker IV",
+      "position": "SG",
+      "team_id": null,
+      "overall": 68,
+      "stats": {
+        "offense": 76,
+        "defense": 61
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 465,
+      "name": "Kemba Walker",
+      "position": "SG",
+      "team_id": null,
+      "overall": 66,
+      "stats": {
+        "offense": 60,
+        "defense": 73
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 466,
+      "name": "Tyrone Wallace",
+      "position": "PG",
+      "team_id": null,
+      "overall": 68,
+      "stats": {
+        "offense": 74,
+        "defense": 62
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 467,
+      "name": "John Wall",
+      "position": "SG",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 67,
+        "defense": 75
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 468,
+      "name": "Brad Wanamaker",
+      "position": "PG",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 66,
+        "defense": 88
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 469,
+      "name": "T.J. Warren",
+      "position": "SF",
+      "team_id": null,
+      "overall": 66,
+      "stats": {
+        "offense": 70,
+        "defense": 62
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 470,
+      "name": "Yuta Watanabe",
+      "position": "PG",
+      "team_id": null,
+      "overall": 64,
+      "stats": {
+        "offense": 60,
+        "defense": 69
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 471,
+      "name": "Thomas Welsh",
+      "position": "C",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 77,
+        "defense": 67
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 472,
+      "name": "Russell Westbrook",
+      "position": "PG",
+      "team_id": null,
+      "overall": 71,
+      "stats": {
+        "offense": 60,
+        "defense": 82
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 473,
+      "name": "Derrick White",
+      "position": "PG",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 89,
+        "defense": 64
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 474,
+      "name": "Hassan Whiteside",
+      "position": "C",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 69,
+        "defense": 89
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 475,
+      "name": "Andrew Wiggins",
+      "position": "PG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 80,
+        "defense": 81
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 476,
+      "name": "Robert Williams III",
+      "position": "SF",
+      "team_id": null,
+      "overall": 68,
+      "stats": {
+        "offense": 64,
+        "defense": 73
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 477,
+      "name": "Alan Williams",
+      "position": "SF",
+      "team_id": null,
+      "overall": 87,
+      "stats": {
+        "offense": 88,
+        "defense": 87
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 478,
+      "name": "C.J. Williams",
+      "position": "PG",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 89,
+        "defense": 60
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 479,
+      "name": "Johnathan Williams",
+      "position": "SF",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 89,
+        "defense": 60
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 480,
+      "name": "Kenrich Williams",
+      "position": "SG",
+      "team_id": null,
+      "overall": 62,
+      "stats": {
+        "offense": 60,
+        "defense": 65
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 481,
+      "name": "Lou Williams",
+      "position": "PG",
+      "team_id": null,
+      "overall": 80,
+      "stats": {
+        "offense": 72,
+        "defense": 88
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 482,
+      "name": "Marvin Williams",
+      "position": "SF",
+      "team_id": null,
+      "overall": 74,
+      "stats": {
+        "offense": 84,
+        "defense": 64
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 483,
+      "name": "Troy Williams",
+      "position": "PF",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 65,
+        "defense": 75
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 484,
+      "name": "D.J. Wilson",
+      "position": "PF",
+      "team_id": null,
+      "overall": 83,
+      "stats": {
+        "offense": 83,
+        "defense": 83
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 485,
+      "name": "Justise Winslow",
+      "position": "PF",
+      "team_id": null,
+      "overall": 65,
+      "stats": {
+        "offense": 68,
+        "defense": 62
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 486,
+      "name": "Christian Wood",
+      "position": "PF",
+      "team_id": null,
+      "overall": 79,
+      "stats": {
+        "offense": 75,
+        "defense": 84
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 487,
+      "name": "Delon Wright",
+      "position": "SG",
+      "team_id": null,
+      "overall": 82,
+      "stats": {
+        "offense": 80,
+        "defense": 85
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 488,
+      "name": "Guerschon Yabusele",
+      "position": "PF",
+      "team_id": null,
+      "overall": 76,
+      "stats": {
+        "offense": 87,
+        "defense": 66
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 489,
+      "name": "Thaddeus Young",
+      "position": "PF",
+      "team_id": null,
+      "overall": 62,
+      "stats": {
+        "offense": 60,
+        "defense": 64
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 490,
+      "name": "Trae Young",
+      "position": "SG",
+      "team_id": null,
+      "overall": 70,
+      "stats": {
+        "offense": 80,
+        "defense": 61
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 491,
+      "name": "Cody Zeller",
+      "position": "C",
+      "team_id": null,
+      "overall": 77,
+      "stats": {
+        "offense": 80,
+        "defense": 75
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 492,
+      "name": "Ante Zizic",
+      "position": "C",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 76,
+        "defense": 81
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 493,
+      "name": "Ivica Zubac",
+      "position": "C",
+      "team_id": null,
+      "overall": 82,
+      "stats": {
+        "offense": 79,
+        "defense": 85
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 494,
+      "name": "Michael Smith",
+      "position": "PF",
+      "team_id": null,
+      "overall": 82,
+      "stats": {
+        "offense": 85,
+        "defense": 79
+      },
+      "salary": 25000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 495,
+      "name": "John Morton",
+      "position": "C",
+      "team_id": null,
+      "overall": 75,
+      "stats": {
+        "offense": 79,
+        "defense": 71
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 496,
+      "name": "Howard Wright",
+      "position": "C",
+      "team_id": null,
+      "overall": 72,
+      "stats": {
+        "offense": 78,
+        "defense": 67
+      },
+      "salary": 8000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 497,
+      "name": "Michael Ansley",
+      "position": "SF",
+      "team_id": null,
+      "overall": 89,
+      "stats": {
+        "offense": 89,
+        "defense": 89
+      },
+      "salary": 35000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 498,
+      "name": "John Salley",
+      "position": "SF",
+      "team_id": null,
+      "overall": 78,
+      "stats": {
+        "offense": 86,
+        "defense": 71
+      },
+      "salary": 15000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 499,
+      "name": "Dan Schayes",
+      "position": "SF",
+      "team_id": null,
+      "overall": 69,
+      "stats": {
+        "offense": 61,
+        "defense": 77
+      },
+      "salary": 1000000,
+      "injury": null,
+      "morale": 100
+    },
+    {
+      "id": 500,
+      "name": "Mark Eaton",
+      "position": "C",
+      "team_id": null,
+      "overall": 83,
+      "stats": {
+        "offense": 87,
+        "defense": 80
+      },
+      "salary": 25000000,
       "injury": null,
       "morale": 100
     }
