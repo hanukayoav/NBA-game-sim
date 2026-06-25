@@ -7,7 +7,10 @@ class DataModule {
             userTeamId: null,
             budget: 140000000,
             news: [],
-            lineup: [] // Array of player IDs representing the starters
+            activeLineupId: 'default',
+            lineups: {
+                'default': [null, null, null, null, null] // PG, SG, SF, PF, C slots
+            }
         };
     }
 
@@ -16,7 +19,24 @@ class DataModule {
             const res = await fetch('data/nba_data.json');
             const data = await res.json();
             this.teams = data.teams;
-            this.players = data.players;
+
+            this.players = data.players.map(p => ({...p, team_id: null}));
+            // Ensure enough players for fantasy draft (30 teams * 12 = 360 minimum)
+            let extraNeeded = 400 - this.players.length;
+            for(let i=0; i<extraNeeded; i++) {
+                this.players.push({
+                    id: 200000 + i,
+                    name: 'Free Agent ' + (i+1),
+                    position: ['PG', 'SG', 'SF', 'PF', 'C'][Math.floor(Math.random() * 5)],
+                    team_id: null,
+                    overall: Math.floor(Math.random() * 20) + 60,
+                    stats: { offense: 70, defense: 70 },
+                    salary: 1000000,
+                    injury: null,
+                    morale: 100
+                });
+            }
+
             console.log("Data loaded from local fallback.");
             return true;
         } catch(e) {
@@ -35,14 +55,21 @@ class DataModule {
             const teamsData = await teamsRes.json();
             this.teams = teamsData.data.filter(t => t.id <= 30);
 
-            // Fetch players (just one page for fast startup, the rest can be mock or paginated)
+            // Fetch players
             const playersRes = await fetch('https://api.balldontlie.io/v1/players?per_page=100', { headers });
             const playersData = await playersRes.json();
 
-            // Process API players to add game attributes
+            // Process API players
             this.players = playersData.data.map(p => {
                 const positions = ['PG', 'SG', 'SF', 'PF', 'C'];
-                const position = p.position && positions.includes(p.position) ? p.position : positions[Math.floor(Math.random() * positions.length)];
+                let posObj = p.position || '';
+                // Handle cases like "G", "F", "F-C"
+                let position = 'PG';
+                if (posObj.includes('G')) position = Math.random() > 0.5 ? 'PG' : 'SG';
+                else if (posObj.includes('F')) position = Math.random() > 0.5 ? 'SF' : 'PF';
+                else if (posObj.includes('C')) position = 'C';
+                else position = positions[Math.floor(Math.random() * positions.length)];
+
                 const offense = Math.floor(Math.random() * 30) + 60;
                 const defense = Math.floor(Math.random() * 30) + 60;
                 const overall = Math.floor((offense + defense) / 2);
@@ -57,7 +84,7 @@ class DataModule {
                     id: p.id,
                     name: `${p.first_name} ${p.last_name}`.trim(),
                     position: position,
-                    team_id: p.team ? p.team.id : null,
+                    team_id: null, // Empty for Fantasy Draft
                     overall: overall,
                     stats: { offense, defense },
                     salary: salary,
@@ -66,15 +93,18 @@ class DataModule {
                 };
             });
 
-            // Add rookies to ensure draft pool
-            for (let i = 1; i <= 60; i++) {
+            // Add rookies
+
+            let extraNeededAPI = 400 - this.players.length;
+            for (let i = 1; i <= extraNeededAPI; i++) {
+
                 const off = Math.floor(Math.random() * 20) + 60;
                 const def = Math.floor(Math.random() * 20) + 60;
                 this.players.push({
                     id: 100000 + i,
                     name: `Rookie Prospect ${i}`,
                     position: ['PG', 'SG', 'SF', 'PF', 'C'][Math.floor(Math.random() * 5)],
-                    team_id: null,
+                    team_id: null, // Empty for Fantasy Draft
                     overall: Math.floor((off + def) / 2),
                     stats: { offense: off, defense: def },
                     salary: 3000000,
@@ -108,15 +138,50 @@ class DataModule {
     }
 
     getFreeAgents() {
-        return this.players.filter(p => p.team_id === null);
+        return this.players.filter(p => p.team_id === null || p.team_id === undefined);
     }
 
     setUserTeam(teamId) {
         this.state.userTeamId = teamId;
         this.state.budget = 140000000; // $140M cap
-        // Auto-set initial lineup
-        const roster = this.getTeamPlayers(teamId).sort((a,b) => b.overall - a.overall);
-        this.state.lineup = roster.slice(0, 5).map(p => p.id);
+
+        // Prepare AI teams with random 12 players to simulate fantasy draft for them
+        const allTeams = this.getTeams().filter(t => t.id !== teamId);
+        let freeAgents = this.getFreeAgents().sort((a,b) => b.overall - a.overall);
+
+        allTeams.forEach(team => {
+            for(let i = 0; i < 12; i++) {
+                if (freeAgents.length > 0) {
+                    const p = freeAgents.shift();
+                    p.team_id = team.id;
+                }
+            }
+        });
+    }
+
+    autoAssignLineup(lineupName) {
+        if (!this.state.lineups[lineupName]) {
+            this.state.lineups[lineupName] = [null, null, null, null, null];
+        }
+        const roster = this.getTeamPlayers(this.state.userTeamId).sort((a,b) => b.overall - a.overall);
+        const newLineup = [null, null, null, null, null];
+        const assignedIds = new Set();
+
+        // Very basic positional auto-assign (PG, SG, SF, PF, C)
+        const positions = ['PG', 'SG', 'SF', 'PF', 'C'];
+
+        positions.forEach((pos, idx) => {
+            let player = roster.find(p => p.position === pos && !assignedIds.has(p.id));
+            if (!player) {
+                player = roster.find(p => !assignedIds.has(p.id));
+            }
+            if (player) {
+                newLineup[idx] = player.id;
+                assignedIds.add(player.id);
+            }
+        });
+
+        this.state.lineups[lineupName] = newLineup;
     }
 
     getUserTeam() {

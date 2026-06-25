@@ -5,12 +5,15 @@ class SimEngine {
 
     calculateTeamRating(teamId) {
         const players = this.data.getTeamPlayers(teamId);
-        if (players.length === 0) return { offense: 50, defense: 50, overall: 50 };
+        if (players.length === 0) return { offense: 50, defense: 50, overall: 50, activePlayers: [] };
 
         let top5 = [];
-        if (teamId === this.data.state.userTeamId && this.data.state.lineup.length === 5) {
-            top5 = this.data.state.lineup.map(id => players.find(p => p.id === id)).filter(p => p);
-        } else {
+        if (teamId === this.data.state.userTeamId && this.data.state.lineups[this.data.state.activeLineupId]) {
+            top5 = this.data.state.lineups[this.data.state.activeLineupId].map(id => players.find(p => p && p.id === id)).filter(p => p);
+        }
+
+        // Fallback for AI or missing user lineup
+        if (top5.length < 5) {
             top5 = [...players].sort((a,b) => b.overall - a.overall).slice(0, 5);
         }
 
@@ -65,6 +68,31 @@ class SimEngine {
                 }
                 pointsLeft -= pts;
 
+                // Break down points into FT (1pt), 2PT, 3PT
+                let tempPts = pts;
+                let ft = 0, fg2 = 0, fg3 = 0;
+
+                // Determine 3 pointers based on position (Guards shoot more 3s)
+                let threePtTendency = ['PG', 'SG'].includes(p.position) ? 0.4 : 0.1;
+                while (tempPts >= 3 && Math.random() < threePtTendency) {
+                    fg3++;
+                    tempPts -= 3;
+                }
+
+                // Determine free throws
+                let ftTendency = 0.2;
+                while (tempPts >= 1 && Math.random() < ftTendency) {
+                    ft++;
+                    tempPts -= 1;
+                }
+
+                // Rest are 2 pointers
+                fg2 = Math.floor(tempPts / 2);
+                tempPts -= fg2 * 2;
+
+                // Any leftover 1 pt make it a FT
+                if (tempPts === 1) ft++;
+
                 // Rebounds (Favors bigs)
                 let rebBase = p.position === 'C' ? 10 : (p.position === 'PF' ? 8 : 4);
                 let reb = Math.round(rebBase * (0.5 + Math.random()));
@@ -73,7 +101,7 @@ class SimEngine {
                 let astBase = p.position === 'PG' ? 8 : (p.position === 'SG' ? 5 : 2);
                 let ast = Math.round(astBase * (0.5 + Math.random()));
 
-                box[p.id] = { name: p.name, pts, reb, ast };
+                box[p.id] = { name: p.name, pts, reb, ast, fg2, fg3, ft };
             });
             return box;
         };

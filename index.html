@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NBA Front Office Simulator</title>
+    <title>NBA Simulation</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
 
                 <div id="api-key-container" style="display:none; margin: 15px 0;">
                     <label>API Key (balldontlie):</label>
-                    <input type="text" id="api-key-input" placeholder="Enter API Key" style="width: 100%; padding: 10px; margin-top: 5px; background: #333; color: #fff; border: 1px solid #555;">
+                    <input type="text" id="api-key-input" value="947e7786-76bc-45b4-9a6e-f715c90bf986" placeholder="Enter API Key" style="width: 100%; padding: 10px; margin-top: 5px; background: #333; color: #fff; border: 1px solid #555;">
                 </div>
 
                 <div style="margin: 15px 0;">
@@ -34,26 +34,59 @@
 
                 <div class="modal-actions">
                     <button id="load-data-btn" class="btn">Load Data</button>
-                    <button id="start-game-btn" class="btn" style="display:none;">Start Journey</button>
+                    <button id="start-game-btn" class="btn" style="display:none;">Start Fantasy Draft</button>
                 </div>
                 <div id="init-status" style="margin-top: 10px; color: var(--accent);"></div>
+            </div>
+        </div>
+
+        <!-- Fantasy Draft View -->
+        <div id="fantasy-draft-view" style="display: none; height: 100%; padding: 20px; flex-direction: column;">
+            <h2>Initial Fantasy Draft</h2>
+            <p>Select 12 players for your initial roster.</p>
+            <div id="fantasy-draft-status" style="margin: 15px 0; color: var(--accent); font-weight: bold;"></div>
+
+            <div style="display: flex; gap: 20px; flex: 1; overflow: hidden;">
+                <div class="panel" style="flex: 2; overflow-y: auto;">
+                    <h3>Available Players</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Pos</th>
+                                <th>OVR</th>
+                                <th>Salary</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="fantasy-available-tbody"></tbody>
+                    </table>
+                </div>
+
+                <div class="panel" style="flex: 1; overflow-y: auto;">
+                    <h3>Your Roster (<span id="fantasy-roster-count">0</span>/12)</h3>
+                    <ul id="fantasy-roster-list" style="list-style: none; display: flex; flex-direction: column; gap: 10px;"></ul>
+                    <div style="margin-top: 20px;">
+                        <button id="finish-fantasy-draft-btn" class="btn" style="display: none; width: 100%;">Complete Draft & Start Season</button>
+                    </div>
+                </div>
             </div>
         </div>
 
         <!-- Main Game View -->
         <div id="game-view" style="display: none; height: 100%;">
             <header>
-                <h1>Front Office Simulator</h1>
+                <h1>NBA Simulation</h1>
                 <div id="header-stats">Week: <span id="week-display">1</span></div>
             </header>
             <div class="main-content">
                 <nav class="sidebar">
                     <button class="nav-btn active" data-target="dashboard">Dashboard</button>
                     <button class="nav-btn" data-target="roster">Roster & Salaries</button>
-                    <button class="nav-btn" data-target="lineups">Lineups</button>
+                    <button class="nav-btn" data-target="lineups">Custom Lineups</button>
                     <button class="nav-btn" data-target="free-agents">Free Agents</button>
                     <button class="nav-btn" data-target="trades">Trade Market</button>
-                    <button class="nav-btn" data-target="draft" id="draft-nav-btn">Draft Room</button>
+                    <button class="nav-btn" data-target="draft" id="draft-nav-btn">Rookie Draft Room</button>
                     <div style="flex:1"></div>
                     <button id="advance-week-btn" class="btn" style="text-align:center">Advance Week</button>
                 </nav>
@@ -107,34 +140,45 @@
                     <!-- Lineups -->
                     <div id="lineups" class="view-panel" style="display: none;">
                         <div class="panel">
-                            <h2>Starting Lineup</h2>
-                            <p style="color:var(--text-muted); margin-bottom:15px;">Set your 5 starters.</p>
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Role</th>
-                                        <th>Player</th>
-                                        <th>Pos</th>
-                                        <th>OVR</th>
-                                        <th>Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="lineups-tbody"></tbody>
-                            </table>
-                        </div>
-                        <div class="panel">
-                            <h2>Bench</h2>
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Pos</th>
-                                        <th>OVR</th>
-                                        <th>Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody id="bench-tbody"></tbody>
-                            </table>
+                            <h2>Custom Lineups</h2>
+                            <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                                <select id="lineup-select" style="padding:10px; background:#333; color:#fff; border:1px solid #555;"></select>
+                                <button id="activate-lineup-btn" class="btn">Set as Active Lineup</button>
+                                <div style="border-left: 1px solid var(--border); margin: 0 10px;"></div>
+                                <input type="text" id="new-lineup-name" placeholder="New Lineup Name" style="padding:10px; background:#333; color:#fff; border:1px solid #555;">
+                                <button id="create-lineup-btn" class="btn" style="background:var(--green)">Create New</button>
+                            </div>
+                            <p style="color:var(--text-muted); margin-bottom:15px;">Active Lineup: <strong id="active-lineup-display">Default</strong></p>
+
+                            <div style="display:flex; gap: 20px;">
+                                <div style="flex:1;">
+                                    <h3>Positions for <span id="current-editing-lineup"></span></h3>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Formation Spot</th>
+                                                <th>Player Name</th>
+                                                <th>Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="lineups-tbody"></tbody>
+                                    </table>
+                                </div>
+                                <div style="flex:1;">
+                                    <h3>Bench (Available Players)</h3>
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Pos</th>
+                                                <th>OVR</th>
+                                                <th>Assign To</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="bench-tbody"></tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -183,8 +227,8 @@
                     <!-- Draft Room -->
                     <div id="draft" class="view-panel" style="display: none;">
                         <div class="panel">
-                            <h2>NBA Draft</h2>
-                            <button id="start-draft-btn" class="btn">Start Draft</button>
+                            <h2>Rookie Draft</h2>
+                            <button id="start-draft-btn" class="btn">Start Rookie Draft</button>
                             <div id="draft-status" style="margin-top: 15px;"></div>
                             <table style="margin-top: 15px;">
                                 <thead>
